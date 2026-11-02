@@ -1,0 +1,713 @@
+---
+name: go-stdlib
+description: "Go standard library guide for server-side Go applications"
+metadata:
+  languages: "go"
+  versions: "1.27.1"
+  revision: 3
+  updated-on: "2026-10-04"
+  source: community
+  tags: "go,stdlib,net-http,html-template,database-sql,encoding-json"
+---
+
+# Go Standard Library
+
+This entry is a practical guide to the Go standard library for application work,
+not an attempt to copy every upstream package page into one document.
+
+The goal is to keep a compact base entry and push package-family detail into
+reference files so future updates can be incremental.
+
+## What "stdlib" means
+
+The Go standard library is the set of packages that ship with Go itself.
+
+High-value examples for application work:
+
+- `net/http`
+- `html/template`
+- `database/sql`
+- `encoding/json`
+- `os`
+- `io`
+- `fs`
+- `context`
+- `time`
+- `sync`
+- `testing`
+
+## Why this pack is organized by package family
+
+If you try to treat the entire standard library as one monolithic doc, updates
+become expensive and noisy.
+
+Instead, this pack uses:
+
+- a stable overview file
+- focused references for the package families most common in application code
+- release delta files for point-release changes
+
+That keeps token usage lower and makes maintenance easier.
+
+## Core package families for web apps
+
+### HTTP and request handling
+
+- `net/http`
+- `net/url`
+- `mime/multipart`
+- `http/cookiejar` when needed
+
+### Rendering and parsing
+
+- `html/template`
+- `text/template`
+- `encoding/json`
+- `encoding/csv`
+
+### Data and storage
+
+- `database/sql`
+- `database/sql/driver`
+
+### Filesystem and process environment
+
+- `os`
+- `io`
+- `io/fs`
+- `path/filepath`
+- `embed`
+
+### Concurrency and lifecycle
+
+- `context`
+- `time`
+- `sync`
+- `errors`
+- `log` or `log/slog`
+
+### Tests and diagnostics
+
+- `testing`
+- `httptest`
+- `testing/fstest`
+- `runtime`
+- `pprof`
+
+## Practical rules
+
+- Prefer stdlib first when it already covers the problem well.
+- Reach for external dependencies only when they clearly improve correctness or speed of delivery.
+- Keep handlers, templates, DB access, and tests explicit.
+- Use small wrappers around stdlib packages instead of building large abstraction layers too early.
+
+## Release-aware workflow
+
+For Go point releases, do not rebuild your mental model of the whole standard library.
+
+Instead:
+
+1. read the new release delta file in `release-deltas/`
+2. inspect only the package-family references touched by that delta
+3. update your app code only where those package changes matter
+
+This mirrors an incremental-backup workflow: small diffs layered on top of a stable base.
+
+## Reference files
+
+- `references/net-http.md`
+- `references/html-template.md`
+- `references/database-sql.md`
+- `references/encoding-json.md`
+- `references/os-io-fs.md`
+- `references/crypto-tls.md`
+- `references/context-time-sync.md`
+- `references/testing.md`
+- `release-deltas/go1.26.1.md`
+- `release-deltas/go1.26.5.md`
+
+## Latest release guidance
+
+- `release-deltas/go1.27.1.md`
+
+
+---
+
+---
+name: fyne-go
+description: "Fyne v2 GUI toolkit guide for building cross-platform desktop apps in Go"
+metadata:
+  languages: "go"
+  versions: "2.8.1"
+  revision: 3
+  updated-on: "2026-10-04"
+  source: community
+  tags: "fyne,go,gui,desktop,ui,cross-platform,widgets"
+---
+
+# Fyne for Go
+
+Fyne is a cross-platform GUI toolkit written in Go. A single codebase produces
+native-style desktop apps on Windows, macOS, Linux, and mobile. It uses OpenGL
+for rendering and requires a C compiler at build time.
+
+It is written for apps that:
+
+- ship as standalone desktop executables
+- need a native-feel UI without embedding a web browser
+- want to stay in pure Go without JavaScript or HTML/CSS
+
+## Prerequisites
+
+A C compiler is required:
+
+- **Windows**: Install [MSYS2](https://www.msys2.org/) and add `mingw-w64-x86_64-gcc` to PATH
+- **macOS**: Install Xcode command-line tools (`xcode-select --install`)
+- **Linux**: `sudo apt-get install gcc libgl1-mesa-dev xorg-dev`
+
+Install the toolkit and CLI tool:
+
+```bash
+go get fyne.io/fyne/v2
+go install fyne.io/fyne/v2/cmd/fyne@latest
+```
+
+## Minimal application
+
+```go
+package main
+
+import (
+    "fyne.io/fyne/v2/app"
+    "fyne.io/fyne/v2/widget"
+)
+
+func main() {
+    a := app.New()
+    w := a.NewWindow("Hello")
+    w.SetContent(widget.NewLabel("Hello, Fyne!"))
+    w.ShowAndRun()
+}
+```
+
+`ShowAndRun` combines `Show` and `app.Run`. Call it on the main window at the
+end of `main`. It blocks until the window is closed.
+
+## Application and window
+
+```go
+a := app.New()                         // create the app (one per process)
+a.SetIcon(resourceIconPng)            // optional app icon (embedded resource)
+
+w := a.NewWindow("My App")            // primary window
+w.Resize(fyne.NewSize(800, 600))      // set initial size
+w.SetFixedSize(true)                  // prevent resize
+w.CenterOnScreen()                    // center before showing
+w.SetMaster()                         // closing this window quits the app
+
+w2 := a.NewWindow("Second")          // additional windows are fine
+w2.Show()                             // show without blocking
+
+w.ShowAndRun()                        // show main window and start event loop
+```
+
+## Setting content
+
+`SetContent` replaces the window's content with any `fyne.CanvasObject`.
+Most of the time that is a container wrapping multiple widgets.
+
+```go
+w.SetContent(
+    container.NewVBox(
+        widget.NewLabel("Name"),
+        widget.NewEntry(),
+        widget.NewButton("Submit", func() { fmt.Println("clicked") }),
+    ),
+)
+```
+
+Call `w.Content().Refresh()` to force a redraw if you update a widget that
+does not automatically trigger one.
+
+## Thread safety
+
+GUI updates must happen on the main thread. When updating from a goroutine,
+wrap the update in `fyne.Do` (non-blocking) or `fyne.DoAndWait` (blocking):
+
+```go
+go func() {
+    result := doExpensiveWork()
+    fyne.Do(func() {
+        label.SetText(result)
+    })
+}()
+```
+
+`fyne.Do` / `fyne.DoAndWait` were added in v2.6. Before that, `fyne.Canvas.Refresh`
+was called directly, which was not always safe.
+
+## Common widget patterns
+
+### Label
+
+```go
+lbl := widget.NewLabel("Hello")
+lbl.SetText("Updated")
+lbl.Wrapping = fyne.TextWrapWord   // wrap long text
+```
+
+### Button
+
+```go
+btn := widget.NewButton("Click me", func() {
+    fmt.Println("tapped")
+})
+btn.Importance = widget.HighImportance  // primary/accent style
+btn.Disable()
+btn.Enable()
+```
+
+### Entry (single-line text input)
+
+```go
+entry := widget.NewEntry()
+entry.SetPlaceHolder("Type here...")
+entry.OnChanged = func(s string) { fmt.Println(s) }
+entry.OnSubmitted = func(s string) { fmt.Println("submitted:", s) }
+text := entry.Text
+```
+
+### Check
+
+```go
+check := widget.NewCheck("Enable feature", func(checked bool) {
+    fmt.Println("checked:", checked)
+})
+check.SetChecked(true)
+```
+
+### Select (dropdown)
+
+```go
+sel := widget.NewSelect([]string{"Option A", "Option B", "Option C"}, func(s string) {
+    fmt.Println("selected:", s)
+})
+sel.SetSelected("Option A")
+```
+
+### ProgressBar
+
+```go
+bar := widget.NewProgressBar()
+bar.SetValue(0.5)   // 0.0 to 1.0
+```
+
+For indeterminate: `widget.NewProgressBarInfinite()`.
+
+## Common layout patterns
+
+```go
+import "fyne.io/fyne/v2/container"
+import "fyne.io/fyne/v2/layout"
+
+// Vertical stack
+container.NewVBox(widget1, widget2, widget3)
+
+// Horizontal row
+container.NewHBox(widget1, widget2, widget3)
+
+// 3-column grid
+container.New(layout.NewGridLayout(3), w1, w2, w3, w4, w5, w6)
+
+// Border layout (cardinal positions + center fill)
+container.NewBorder(top, bottom, left, right, center)
+
+// Form (label-field pairs)
+container.New(layout.NewFormLayout(),
+    widget.NewLabel("Name"), widget.NewEntry(),
+    widget.NewLabel("Email"), widget.NewEntry(),
+)
+
+// Centered single widget
+container.NewCenter(widget.NewLabel("Centered"))
+```
+
+## Data binding basics
+
+Bind a string to a label so updates propagate automatically:
+
+```go
+import "fyne.io/fyne/v2/data/binding"
+
+str := binding.NewString()
+str.Set("initial value")
+
+lbl := widget.NewLabelWithData(str)
+
+// Update from anywhere (even goroutines — binding is thread-safe)
+str.Set("new value")  // label refreshes automatically
+```
+
+## Menus
+
+```go
+a.SetIcon(resourceIconPng)
+
+menu := fyne.NewMainMenu(
+    fyne.NewMenu("File",
+        fyne.NewMenuItem("Open", func() { /* ... */ }),
+        fyne.NewMenuItemSeparator(),
+        fyne.NewMenuItem("Quit", func() { a.Quit() }),
+    ),
+    fyne.NewMenu("Help",
+        fyne.NewMenuItem("About", func() { /* ... */ }),
+    ),
+)
+w.SetMainMenu(menu)
+```
+
+## Dialogs
+
+```go
+import "fyne.io/fyne/v2/dialog"
+
+// Simple info dialog
+dialog.ShowInformation("Title", "Message body.", w)
+
+// Confirmation
+dialog.ShowConfirm("Delete?", "This cannot be undone.", func(ok bool) {
+    if ok { deleteItem() }
+}, w)
+
+// File open
+dialog.ShowFileOpen(func(r fyne.URIReadCloser, err error) {
+    if r == nil { return }
+    defer r.Close()
+    // read from r
+}, w)
+```
+
+## Packaging
+
+```bash
+# Bundle app with icon for current platform
+fyne package -icon icon.png
+
+# Cross-compile for a specific OS
+fyne package -os windows -icon icon.png
+fyne package -os darwin  -icon icon.png
+fyne package -os linux   -icon icon.png
+
+# Embed static resources (images, fonts) into Go code
+fyne bundle -o bundled.go icon.png
+```
+
+`fyne package` produces a platform-native distributable (`.exe` installer on
+Windows, `.app` bundle on macOS, `.tar.gz` on Linux).
+
+## References
+
+- `references/widgets.md`
+- `references/layouts-containers.md`
+- `references/data-binding.md`
+- `references/canvas-drawing.md`
+- `references/version-notes.md`
+- `release-deltas/fyne-2.8.0.md`
+
+## Latest release guidance
+
+- `release-deltas/fyne-2.8.1.md`
+
+
+---
+
+---
+name: sqlite-go
+description: "SQLite + modernc.org/sqlite guide for Go web applications"
+metadata:
+  languages: "go"
+  versions: "1.60.1"
+  revision: 3
+  updated-on: "2026-10-04"
+  source: community
+  tags: "sqlite,go,database,sql,modernc,database-sql"
+---
+
+# SQLite for Go
+
+This entry packages practical SQLite guidance for Go applications using
+`database/sql` and `modernc.org/sqlite`.
+
+It is written for the style of app that:
+
+- uses `sql.Open("sqlite", dbPath)`
+- keeps SQL explicit in repository methods
+- creates or verifies schema on startup
+- uses transactions for multi-row writes
+- serves a server-rendered web UI instead of a JSON-heavy frontend
+
+## Base setup
+
+Register the driver with a blank import and open the database through
+`database/sql`.
+
+```go
+import (
+    "database/sql"
+    _ "modernc.org/sqlite"
+)
+
+func openDB(dbPath string) (*sql.DB, error) {
+    db, err := sql.Open("sqlite", dbPath)
+    if err != nil {
+        return nil, err
+    }
+    return db, nil
+}
+```
+
+## Why this driver is useful
+
+`modernc.org/sqlite` is a pure Go SQLite driver. That makes it attractive when you
+want simpler builds and do not want CGO as an app requirement.
+
+In most apps, you still think in normal SQLite terms first:
+
+- schema design
+- indexes
+- transactions
+- `PRAGMA` usage
+- `ON CONFLICT` behavior
+- query shape and scan discipline
+
+The Go driver mostly affects initialization, DSN/connection details, and some
+operational tradeoffs.
+
+## Practical patterns
+
+### Initialize schema at startup
+
+```go
+func initSchema(ctx context.Context, db *sql.DB) error {
+    schema := `
+CREATE TABLE IF NOT EXISTS questions (
+    id INTEGER PRIMARY KEY AUTOINCREMENT,
+    book_name TEXT NOT NULL,
+    study_slice TEXT NOT NULL,
+    question_prompt TEXT NOT NULL,
+    correct_letter TEXT NOT NULL,
+    created_at DATETIME NOT NULL DEFAULT CURRENT_TIMESTAMP
+);
+
+CREATE INDEX IF NOT EXISTS idx_questions_book_slice
+ON questions(book_name, study_slice);
+`
+    _, err := db.ExecContext(ctx, schema)
+    return err
+}
+```
+
+### Use `PRAGMA table_info` for lightweight column checks
+
+```go
+func hasColumn(ctx context.Context, db *sql.DB, tableName, columnName string) (bool, error) {
+    rows, err := db.QueryContext(ctx, "PRAGMA table_info("+tableName+")")
+    if err != nil {
+        return false, err
+    }
+    defer rows.Close()
+
+    for rows.Next() {
+        var cid int
+        var name string
+        var columnType string
+        var notNull int
+        var defaultVal sql.NullString
+        var pk int
+        if err := rows.Scan(&cid, &name, &columnType, &notNull, &defaultVal, &pk); err != nil {
+            return false, err
+        }
+        if strings.EqualFold(name, columnName) {
+            return true, nil
+        }
+    }
+
+    return false, rows.Err()
+}
+```
+
+This is a practical migration tactic when your app owns a local SQLite file and
+you want simple startup-time schema evolution without a separate migration tool.
+
+### Wrap multi-row writes in transactions
+
+```go
+func insertQuestions(ctx context.Context, db *sql.DB, questions []Question) error {
+    tx, err := db.BeginTx(ctx, nil)
+    if err != nil {
+        return err
+    }
+
+    stmt, err := tx.PrepareContext(ctx, `
+INSERT INTO questions (book_name, study_slice, question_prompt, correct_letter)
+VALUES (?, ?, ?, ?)`)
+    if err != nil {
+        _ = tx.Rollback()
+        return err
+    }
+    defer stmt.Close()
+
+    for _, q := range questions {
+        if _, err := stmt.ExecContext(ctx, q.BookName, q.StudySlice, q.QuestionPrompt, q.CorrectLetter); err != nil {
+            _ = tx.Rollback()
+            return err
+        }
+    }
+
+    return tx.Commit()
+}
+```
+
+### Use upserts for app settings or counters
+
+SQLite supports `INSERT ... ON CONFLICT DO UPDATE`.
+
+```sql
+INSERT INTO app_settings (key, value, updated_at)
+VALUES (?, ?, CURRENT_TIMESTAMP)
+ON CONFLICT(key) DO UPDATE SET
+    value = excluded.value,
+    updated_at = CURRENT_TIMESTAMP;
+```
+
+This is a strong fit for user preferences, cached prompts, sync markers, and
+other key-value style records.
+
+## Query advice
+
+- Use explicit column lists in `SELECT` statements.
+- Keep scan order stable and close to the struct you fill.
+- Add indexes for real lookup paths, not hypothetical ones.
+- Be careful with `ORDER BY RANDOM()` on large tables. It is convenient, but it
+  gets more expensive as the table grows.
+
+## Common SQLite features worth knowing
+
+- `INTEGER PRIMARY KEY` aliases the rowid in SQLite.
+- `AUTOINCREMENT` is rarely needed unless you specifically need stricter rowid reuse behavior.
+- `PRAGMA table_info(...)` is useful for startup checks.
+- `PRAGMA foreign_keys = ON` matters if you rely on foreign key enforcement.
+- `CURRENT_TIMESTAMP` is useful for simple created/updated fields.
+- `UNIQUE` plus `ON CONFLICT` is often simpler than read-then-write logic.
+
+## Good fit for Go web apps
+
+SQLite works especially well when:
+
+- a single app process owns the database file most of the time
+- deployment simplicity matters more than distributed write scaling
+- you want backups to be simple file operations
+- your app is query-light to medium and mostly request/response driven
+
+## References
+
+- `references/modernc-driver.md`
+- `references/schema-and-migrations.md`
+- `references/queries-and-transactions.md`
+- `references/sqlite-patterns.md`
+- `references/version-notes.md`
+- `release-deltas/modernc-sqlite-1.54.0.md`
+
+## Latest release guidance
+
+- `release-deltas/modernc-sqlite-1.60.1.md`
+
+
+---
+
+---
+name: postgres-go
+description: "Practical PostgreSQL patterns for Go apps using database/sql with the pgx stdlib driver"
+metadata:
+  languages: "go"
+  versions: "5.11.0"
+  revision: 3
+  updated-on: "2026-10-04"
+  source: community
+  tags: "postgresql,postgres,go,pgx,database-sql,sql,testing"
+---
+
+# PostgreSQL in Go
+
+This entry packages a practical PostgreSQL setup for small and medium Go
+applications that use:
+
+- `database/sql`
+- `github.com/jackc/pgx/v5/stdlib`
+- explicit SQL instead of an ORM
+- transaction-aware repository methods
+
+The focus is not every PostgreSQL feature. The focus is the set of patterns that
+show up repeatedly in server-rendered Go applications.
+
+## Base setup
+
+Use the `pgx` stdlib driver when you want PostgreSQL-specific behavior while
+keeping the standard `database/sql` surface.
+
+```go
+import (
+    "database/sql"
+    "time"
+
+    _ "github.com/jackc/pgx/v5/stdlib"
+)
+
+func mustOpen(dsn string) *sql.DB {
+    db, err := sql.Open("pgx", dsn)
+    if err != nil {
+        panic(err)
+    }
+
+    db.SetMaxOpenConns(10)
+    db.SetMaxIdleConns(5)
+    db.SetConnMaxLifetime(5 * time.Minute)
+
+    if err := db.Ping(); err != nil {
+        panic(err)
+    }
+
+    return db
+}
+```
+
+## Recommended posture
+
+- keep SQL explicit and near the repository method that owns it
+- use transactions for multi-table writes
+- model many-to-many joins directly instead of hiding them behind an ORM
+- design indexes around actual query paths
+- test repository behavior against a real Postgres instance when query semantics matter
+
+## What ThoughtSpark demonstrates well
+
+ThoughtSpark is a good example of:
+
+- `database/sql` plus `pgx` for a Postgres-backed Go app
+- schema constraints that mirror application rules
+- transaction-based writes for parent-plus-child inserts
+- SQL aggregation to hydrate slice fields
+- time-window queries and supporting indexes
+- integration tests with `testcontainers-go`
+
+## Good first references
+
+- `references/pgx-stdlib.md`
+- `references/schema-and-indexes.md`
+- `references/query-patterns.md`
+- `references/testing-with-testcontainers.md`
+- `references/version-notes.md`
+
+## Latest release guidance
+
+- `release-deltas/pgx-5.11.0.md`

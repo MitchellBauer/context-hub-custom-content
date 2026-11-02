@@ -1,0 +1,41 @@
+{
+  "version": "1.0.0",
+  "generated": "2026-07-28T17:18:49.194Z",
+  "docs": [
+    {
+      "id": "mitchellbauer/clipboard-dependencies",
+      "name": "clipboard-dependencies",
+      "description": "Clipboard dependency guide for the Context CLI across Windows, macOS, X11, and Wayland",
+      "source": "community",
+      "tags": [
+        "clipboard",
+        "windows",
+        "macos",
+        "linux",
+        "go",
+        "context"
+      ],
+      "languages": [
+        {
+          "language": "go",
+          "versions": [
+            {
+              "version": "1.0.0",
+              "path": "mitchellbauer/docs/clipboard-dependencies",
+              "files": [
+                "DOC.md",
+                "references/linux-clipboard-tools.md",
+                "references/macos-pbcopy.md",
+                "references/windows-win32.md"
+              ],
+              "size": 8283,
+              "lastUpdated": "2026-07-28"
+            }
+          ],
+          "recommendedVersion": "1.0.0"
+        }
+      ]
+    }
+  ],
+  "skills": []
+}

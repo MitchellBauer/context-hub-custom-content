@@ -1,0 +1,46 @@
+{
+  "version": "1.0.0",
+  "generated": "2026-10-05T03:35:23.549Z",
+  "docs": [
+    {
+      "id": "mitchellbauer/htmx",
+      "name": "htmx",
+      "description": "Official HTMX 2.x guide for building server-rendered web apps in Go",
+      "source": "community",
+      "tags": [
+        "htmx",
+        "go",
+        "html",
+        "templates",
+        "server-rendered",
+        "web"
+      ],
+      "languages": [
+        {
+          "language": "go",
+          "versions": [
+            {
+              "version": "2.0.11",
+              "path": "mitchellbauer/docs/htmx",
+              "files": [
+                "DOC.md",
+                "references/attributes.md",
+                "references/go-patterns.md",
+                "references/headers.md",
+                "references/thoughtspark-admin-crud.md",
+                "references/ui-patterns.md",
+                "references/version-notes.md",
+                "release-deltas/htmx-2.0.11.md",
+                "release-deltas/htmx-2.0.9.md"
+              ],
+              "size": 21570,
+              "lastUpdated": "2026-10-04"
+            }
+          ],
+          "recommendedVersion": "2.0.11"
+        }
+      ]
+    }
+  ],
+  "skills": []
+}

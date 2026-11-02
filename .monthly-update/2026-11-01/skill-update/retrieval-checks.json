@@ -1,0 +1,14 @@
+[
+  {
+    "scenario": "Go guide selects configured local source and retrieves one versioned reference",
+    "result": "passed"
+  },
+  {
+    "scenario": "HTMX 4 selects stable guidance despite historical beta source name",
+    "result": "passed"
+  },
+  {
+    "scenario": "Unavailable version is rejected instead of silently returning a different version",
+    "result": "passed"
+  }
+]

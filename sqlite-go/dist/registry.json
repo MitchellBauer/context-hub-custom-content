@@ -1,0 +1,46 @@
+{
+  "version": "1.0.0",
+  "generated": "2026-11-01T19:58:06.552Z",
+  "docs": [
+    {
+      "id": "mitchellbauer/sqlite-go",
+      "name": "sqlite-go",
+      "description": "SQLite + modernc.org/sqlite guide for Go web applications",
+      "source": "community",
+      "tags": [
+        "sqlite",
+        "go",
+        "database",
+        "sql",
+        "modernc",
+        "database-sql"
+      ],
+      "languages": [
+        {
+          "language": "go",
+          "versions": [
+            {
+              "version": "1.61.1",
+              "path": "mitchellbauer/docs/sqlite-go",
+              "files": [
+                "DOC.md",
+                "references/modernc-driver.md",
+                "references/queries-and-transactions.md",
+                "references/schema-and-migrations.md",
+                "references/sqlite-patterns.md",
+                "references/version-notes.md",
+                "release-deltas/modernc-sqlite-1.54.0.md",
+                "release-deltas/modernc-sqlite-1.60.1.md",
+                "release-deltas/modernc-sqlite-1.61.1.md"
+              ],
+              "size": 15504,
+              "lastUpdated": "2026-11-01"
+            }
+          ],
+          "recommendedVersion": "1.61.1"
+        }
+      ]
+    }
+  ],
+  "skills": []
+}

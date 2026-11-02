@@ -1,0 +1,45 @@
+{
+  "version": "1.0.0",
+  "generated": "2026-07-28T15:29:34.923Z",
+  "docs": [
+    {
+      "id": "mitchellbauer/htmx-go-beta",
+      "name": "htmx-go-beta",
+      "description": "HTMX 4.0.0-beta6 pre-release guide for server-rendered Go applications",
+      "source": "community",
+      "tags": [
+        "htmx",
+        "go",
+        "beta",
+        "prerelease",
+        "html",
+        "templates",
+        "server-rendered",
+        "web"
+      ],
+      "languages": [
+        {
+          "language": "go",
+          "versions": [
+            {
+              "version": "4.0.0-beta6",
+              "path": "mitchellbauer/docs/htmx-go-beta",
+              "files": [
+                "DOC.md",
+                "references/attributes-and-events.md",
+                "references/beta6-release-notes.md",
+                "references/go-patterns.md",
+                "references/headers.md",
+                "references/migration-from-v2.md"
+              ],
+              "size": 11368,
+              "lastUpdated": "2026-07-28"
+            }
+          ],
+          "recommendedVersion": "4.0.0-beta6"
+        }
+      ]
+    }
+  ],
+  "skills": []
+}

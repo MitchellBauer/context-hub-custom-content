@@ -1,0 +1,83 @@
+{
+  "version": "1.0.0",
+  "generated": "2026-10-05T03:35:25.006Z",
+  "docs": [
+    {
+      "id": "mitchellbauer/htmx-go",
+      "name": "htmx-go",
+      "description": "HTMX 4.0.0 stable guide for server-rendered Go applications",
+      "source": "community",
+      "tags": [
+        "htmx",
+        "go",
+        "stable",
+        "html",
+        "templates",
+        "server-rendered",
+        "web"
+      ],
+      "languages": [
+        {
+          "language": "go",
+          "versions": [
+            {
+              "version": "4.0.0",
+              "path": "mitchellbauer/docs/htmx-go",
+              "files": [
+                "DOC.md",
+                "references/attributes-and-events.md",
+                "references/beta6-release-notes.md",
+                "references/go-patterns.md",
+                "references/headers.md",
+                "references/htmx-4.0.0-release-notes.md",
+                "references/migration-from-v2.md"
+              ],
+              "size": 13523,
+              "lastUpdated": "2026-10-04"
+            }
+          ],
+          "recommendedVersion": "4.0.0"
+        }
+      ]
+    },
+    {
+      "id": "mitchellbauer/htmx-go-beta",
+      "name": "htmx-go-beta",
+      "description": "HTMX 4.0.0 stable guide for server-rendered Go applications",
+      "source": "community",
+      "tags": [
+        "htmx",
+        "go",
+        "stable",
+        "html",
+        "templates",
+        "server-rendered",
+        "web"
+      ],
+      "languages": [
+        {
+          "language": "go",
+          "versions": [
+            {
+              "version": "4.0.0",
+              "path": "mitchellbauer/docs/htmx-go-beta",
+              "files": [
+                "DOC.md",
+                "references/attributes-and-events.md",
+                "references/beta6-release-notes.md",
+                "references/go-patterns.md",
+                "references/headers.md",
+                "references/htmx-4.0.0-release-notes.md",
+                "references/migration-from-v2.md"
+              ],
+              "size": 13542,
+              "lastUpdated": "2026-10-04"
+            }
+          ],
+          "recommendedVersion": "4.0.0"
+        }
+      ]
+    }
+  ],
+  "skills": []
+}

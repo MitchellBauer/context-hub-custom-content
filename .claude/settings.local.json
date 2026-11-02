@@ -1,0 +1,11 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(grep -E \"\\(mitchellbauer|dist\\)$\")",
+      "Bash(du -sh C:\\\\GitHubProjects\\\\Context-Hub-Custom-Content\\\\*)",
+      "Bash(chub search:*)",
+      "Bash(curl -s https://developer.fyne.io/started/)",
+      "WebFetch(domain:docs.fyne.io)"
+    ]
+  }
+}

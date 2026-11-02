@@ -1,0 +1,20 @@
+{
+  "date": "2026-11-01",
+  "upstream": "https://github.com/andrewyng/context-hub/blob/main/cli/skills/get-api-docs/SKILL.md",
+  "source": "C:\\GitHubProjects\\Context-Hub-Custom-Content\\skills\\get-api-docs",
+  "targets": [
+    {
+      "folder": "C:\\Users\\Mitchell Bauer\\.agents\\skills\\get-api-docs",
+      "beforeSha256": "c3a8c7e2a2a541c377d800610bafd2ad0ac38c7ae2596dfe83a45e96f9a92c4a",
+      "backup": "C:\\GitHubProjects\\Context-Hub-Custom-Content\\.monthly-update\\2026-11-01\\skill-update\\backups\\agents\\SKILL.md"
+    },
+    {
+      "folder": "C:\\Users\\Mitchell Bauer\\.codex\\skills\\get-api-docs",
+      "beforeSha256": "c3a8c7e2a2a541c377d800610bafd2ad0ac38c7ae2596dfe83a45e96f9a92c4a",
+      "backup": "C:\\GitHubProjects\\Context-Hub-Custom-Content\\.monthly-update\\2026-11-01\\skill-update\\backups\\codex\\SKILL.md"
+    }
+  ],
+  "excluded": "C:\\Users\\Mitchell Bauer\\.claude\\skills\\get-api-docs (user requested no changes)",
+  "installed": true,
+  "verification": "Both installed skill folders validate and match the maintained source; Claude SKILL.md unchanged."
+}

@@ -1,0 +1,51 @@
+{
+  "version": "1.0.0",
+  "generated": "2026-11-01T19:58:05.199Z",
+  "docs": [
+    {
+      "id": "mitchellbauer/go-stdlib",
+      "name": "go-stdlib",
+      "description": "Go standard library guide for server-side Go applications",
+      "source": "community",
+      "tags": [
+        "go",
+        "stdlib",
+        "net-http",
+        "html-template",
+        "database-sql",
+        "encoding-json"
+      ],
+      "languages": [
+        {
+          "language": "go",
+          "versions": [
+            {
+              "version": "1.27.3",
+              "path": "mitchellbauer/docs/go-stdlib",
+              "files": [
+                "DOC.md",
+                "references/context-time-sync.md",
+                "references/crypto-tls.md",
+                "references/database-sql.md",
+                "references/encoding-json.md",
+                "references/html-template.md",
+                "references/net-http.md",
+                "references/os-io-fs.md",
+                "references/testing.md",
+                "release-deltas/go1.26.1.md",
+                "release-deltas/go1.26.5.md",
+                "release-deltas/go1.27.1.md",
+                "release-deltas/go1.27.2.md",
+                "release-deltas/go1.27.3.md"
+              ],
+              "size": 16431,
+              "lastUpdated": "2026-11-01"
+            }
+          ],
+          "recommendedVersion": "1.27.3"
+        }
+      ]
+    }
+  ],
+  "skills": []
+}

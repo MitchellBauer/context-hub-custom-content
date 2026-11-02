@@ -1,0 +1,45 @@
+{
+  "version": "1.0.0",
+  "generated": "2026-10-05T03:37:33.795Z",
+  "docs": [
+    {
+      "id": "mitchellbauer/postgres-go",
+      "name": "postgres-go",
+      "description": "Practical PostgreSQL patterns for Go apps using database/sql with the pgx stdlib driver",
+      "source": "community",
+      "tags": [
+        "postgresql",
+        "postgres",
+        "go",
+        "pgx",
+        "database-sql",
+        "sql",
+        "testing"
+      ],
+      "languages": [
+        {
+          "language": "go",
+          "versions": [
+            {
+              "version": "5.11.0",
+              "path": "mitchellbauer/docs/postgres-go",
+              "files": [
+                "DOC.md",
+                "references/pgx-stdlib.md",
+                "references/query-patterns.md",
+                "references/schema-and-indexes.md",
+                "references/testing-with-testcontainers.md",
+                "references/version-notes.md",
+                "release-deltas/pgx-5.11.0.md"
+              ],
+              "size": 9941,
+              "lastUpdated": "2026-10-04"
+            }
+          ],
+          "recommendedVersion": "5.11.0"
+        }
+      ]
+    }
+  ],
+  "skills": []
+}

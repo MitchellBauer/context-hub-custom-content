@@ -1,0 +1,1227 @@
+{
+  "recordedOn": "2026-11-01",
+  "source": "C:\\GitHubProjects\\Context\\.byod-update",
+  "destination": "C:\\GitHubProjects\\Context-Hub-Custom-Content\\.monthly-update\\2026-10-04",
+  "fileCount": 229,
+  "totalBytes": 748362.0,
+  "copyVerification": "All original files match by SHA-256",
+  "originalFiles": [
+    {
+      "path": "apply.ps1",
+      "bytes": 2268,
+      "sha256": "152ed5b3193d8dc8a47bcf2a995c4ecd11ed90b16c92a1ef7248819535b3b9a6"
+    },
+    {
+      "path": "manifest.json",
+      "bytes": 6407,
+      "sha256": "789554f8c77395abdd031324d2b0a4c150e1997bf393c4e90dba20ed8da78249"
+    },
+    {
+      "path": "prepare.py",
+      "bytes": 19508,
+      "sha256": "0b5ab4725ff3d65e7a70b6b13a16eec4d9862014e5e1d150445da6ceb8f9fc66"
+    },
+    {
+      "path": "verify.py",
+      "bytes": 970,
+      "sha256": "662a268165223add954a5e2306f49ebe6a5e2ac547e778bab246ed93866dfd75"
+    },
+    {
+      "path": "backup\\fyne-go\\README.md",
+      "bytes": 1618,
+      "sha256": "d486b9c9948df3177724bbc8cc249de0a6fda9da4962b4665faaee8a7e7ccfea"
+    },
+    {
+      "path": "backup\\fyne-go\\dist\\registry.json",
+      "bytes": 1135,
+      "sha256": "fae7a6dcda39c8683042df677240aaa73e0fc5b96de647fa78f1ce0a31ce50f8"
+    },
+    {
+      "path": "backup\\fyne-go\\dist\\search-index.json",
+      "bytes": 1171,
+      "sha256": "e7c412c1382beaf1ddac8aa9f24a79dd6a7259c238a5c1092684d683759d5d84"
+    },
+    {
+      "path": "backup\\fyne-go\\dist\\mitchellbauer\\docs\\fyne-go\\DOC.md",
+      "bytes": 6592,
+      "sha256": "c805618ee9a08ab94a03123c1effe361c39f868bd3d2fec85dfe8c8d2723db85"
+    },
+    {
+      "path": "backup\\fyne-go\\dist\\mitchellbauer\\docs\\fyne-go\\references\\canvas-drawing.md",
+      "bytes": 5638,
+      "sha256": "15de074561c15a45935eab4ac7ae21c5a22ab85b979a34373eb2bc8cfa5d777d"
+    },
+    {
+      "path": "backup\\fyne-go\\dist\\mitchellbauer\\docs\\fyne-go\\references\\data-binding.md",
+      "bytes": 4536,
+      "sha256": "ca66f7c6db1a397b377b398844950110d9b2c4fbc039a07ff8a0a8d0897bc20a"
+    },
+    {
+      "path": "backup\\fyne-go\\dist\\mitchellbauer\\docs\\fyne-go\\references\\layouts-containers.md",
+      "bytes": 5522,
+      "sha256": "33f2e7d254cb043300ecd2d978fa692f3a3dcdb80ffd8b14579e46a0142d5a0c"
+    },
+    {
+      "path": "backup\\fyne-go\\dist\\mitchellbauer\\docs\\fyne-go\\references\\version-notes.md",
+      "bytes": 3987,
+      "sha256": "6d6270097c0758d6e42e27bdbe4269a490f155263ca4fe52c1cfab1ab4f52bab"
+    },
+    {
+      "path": "backup\\fyne-go\\dist\\mitchellbauer\\docs\\fyne-go\\references\\widgets.md",
+      "bytes": 7585,
+      "sha256": "9aa34ce280cc1e0f41d0bbba43563be3a5bf8c5f9aaae8dd72c4b8b4dd3e9220"
+    },
+    {
+      "path": "backup\\fyne-go\\dist\\mitchellbauer\\docs\\fyne-go\\release-deltas\\fyne-2.8.0.md",
+      "bytes": 841,
+      "sha256": "fc66b20168257009758bd24d261a4ca6575a0eda49123e4e41911e0126b45876"
+    },
+    {
+      "path": "backup\\fyne-go\\mitchellbauer\\docs\\fyne-go\\DOC.md",
+      "bytes": 6592,
+      "sha256": "c805618ee9a08ab94a03123c1effe361c39f868bd3d2fec85dfe8c8d2723db85"
+    },
+    {
+      "path": "backup\\fyne-go\\mitchellbauer\\docs\\fyne-go\\references\\version-notes.md",
+      "bytes": 3987,
+      "sha256": "6d6270097c0758d6e42e27bdbe4269a490f155263ca4fe52c1cfab1ab4f52bab"
+    },
+    {
+      "path": "backup\\go-stdlib\\README.md",
+      "bytes": 2174,
+      "sha256": "d310f435016b116d2b14912574038c568e010c7ac63372e8845dc885193a2d9a"
+    },
+    {
+      "path": "backup\\go-stdlib\\dist\\registry.json",
+      "bytes": 1313,
+      "sha256": "07c4d333c916ecbe84867567316c1676a3db78349725c0eb0d857102919ee857"
+    },
+    {
+      "path": "backup\\go-stdlib\\dist\\search-index.json",
+      "bytes": 860,
+      "sha256": "8f22e5b30e52d7f2732821766fe5e1295547dbbf071d68ae6bb255fea8dcaf07"
+    },
+    {
+      "path": "backup\\go-stdlib\\dist\\mitchellbauer\\docs\\go-stdlib\\DOC.md",
+      "bytes": 2911,
+      "sha256": "835ca4e739fea9106d2f17c1f71213f9d16b40289c162e4840f84aa8933400ed"
+    },
+    {
+      "path": "backup\\go-stdlib\\dist\\mitchellbauer\\docs\\go-stdlib\\references\\context-time-sync.md",
+      "bytes": 602,
+      "sha256": "a804067ca81056f844b92177a12c41c56b8980be8534f4ecd1472e9faaff86f6"
+    },
+    {
+      "path": "backup\\go-stdlib\\dist\\mitchellbauer\\docs\\go-stdlib\\references\\crypto-tls.md",
+      "bytes": 1016,
+      "sha256": "15d8c8edb78861190ab48cb987459cca1e8cfccc0f72e8c8b52fb43e8af3b6c8"
+    },
+    {
+      "path": "backup\\go-stdlib\\dist\\mitchellbauer\\docs\\go-stdlib\\references\\database-sql.md",
+      "bytes": 546,
+      "sha256": "9a8b39d7ff12631d8254aef982cc40c0dbc48ed0a7f3a39d33d89a7513783066"
+    },
+    {
+      "path": "backup\\go-stdlib\\dist\\mitchellbauer\\docs\\go-stdlib\\references\\encoding-json.md",
+      "bytes": 446,
+      "sha256": "76e1b5cfd2a93dfaef19c4b48995340c4bc338ca7f9d8f1ddd63b296f5b756ad"
+    },
+    {
+      "path": "backup\\go-stdlib\\dist\\mitchellbauer\\docs\\go-stdlib\\references\\html-template.md",
+      "bytes": 615,
+      "sha256": "15a98dc60a40b8909c8621de4f24bd9ea2b3e17fd55d18f0eef25df7dfc009bc"
+    },
+    {
+      "path": "backup\\go-stdlib\\dist\\mitchellbauer\\docs\\go-stdlib\\references\\net-http.md",
+      "bytes": 837,
+      "sha256": "b62f25d46d473e0a8445fc0569b6b7969cb4916dfa2ee07ee3331754af270773"
+    },
+    {
+      "path": "backup\\go-stdlib\\dist\\mitchellbauer\\docs\\go-stdlib\\references\\os-io-fs.md",
+      "bytes": 1059,
+      "sha256": "fa1c923cbd33e9912cd5980626e1736995903101f20f81dfecc3658e97c50977"
+    },
+    {
+      "path": "backup\\go-stdlib\\dist\\mitchellbauer\\docs\\go-stdlib\\references\\testing.md",
+      "bytes": 508,
+      "sha256": "830e20e9b5276394ab12866730f44f7999b29ee5b1c1838d7fc37d4813ad2778"
+    },
+    {
+      "path": "backup\\go-stdlib\\dist\\mitchellbauer\\docs\\go-stdlib\\release-deltas\\go1.26.1.md",
+      "bytes": 1448,
+      "sha256": "d488ac6fc6196471508be335769f8b36f6ad569e8688519986d9beea98b4c1bc"
+    },
+    {
+      "path": "backup\\go-stdlib\\dist\\mitchellbauer\\docs\\go-stdlib\\release-deltas\\go1.26.5.md",
+      "bytes": 1839,
+      "sha256": "1a6bafcead84ea8dbad045984914a4ebd1efb1822d18c1223c44491e25ecfd72"
+    },
+    {
+      "path": "backup\\go-stdlib\\mitchellbauer\\docs\\go-stdlib\\DOC.md",
+      "bytes": 2911,
+      "sha256": "835ca4e739fea9106d2f17c1f71213f9d16b40289c162e4840f84aa8933400ed"
+    },
+    {
+      "path": "backup\\go-stdlib\\mitchellbauer\\docs\\go-stdlib\\references\\crypto-tls.md",
+      "bytes": 1016,
+      "sha256": "15d8c8edb78861190ab48cb987459cca1e8cfccc0f72e8c8b52fb43e8af3b6c8"
+    },
+    {
+      "path": "backup\\go-stdlib\\mitchellbauer\\docs\\go-stdlib\\references\\database-sql.md",
+      "bytes": 546,
+      "sha256": "9a8b39d7ff12631d8254aef982cc40c0dbc48ed0a7f3a39d33d89a7513783066"
+    },
+    {
+      "path": "backup\\go-stdlib\\mitchellbauer\\docs\\go-stdlib\\references\\net-http.md",
+      "bytes": 837,
+      "sha256": "b62f25d46d473e0a8445fc0569b6b7969cb4916dfa2ee07ee3331754af270773"
+    },
+    {
+      "path": "backup\\go-stdlib\\mitchellbauer\\docs\\go-stdlib\\references\\testing.md",
+      "bytes": 508,
+      "sha256": "830e20e9b5276394ab12866730f44f7999b29ee5b1c1838d7fc37d4813ad2778"
+    },
+    {
+      "path": "backup\\HTMX-GO\\README.md",
+      "bytes": 1631,
+      "sha256": "ac55e152c8bffc76376b5823d20061eb7ec3b30b445851ac9c855fd7e9775f64"
+    },
+    {
+      "path": "backup\\HTMX-GO\\dist\\registry.json",
+      "bytes": 1152,
+      "sha256": "5063bf4dd2cf184e653caa21f230dea0562e0f1e7aae07ea22a4d96b57a7ff90"
+    },
+    {
+      "path": "backup\\HTMX-GO\\dist\\search-index.json",
+      "bytes": 1053,
+      "sha256": "3562b2a039f99f81baf0c7c3515fdf13dfd101b2a4fe7e7d3237354d7b0cee66"
+    },
+    {
+      "path": "backup\\HTMX-GO\\dist\\mitchellbauer\\docs\\htmx\\DOC.md",
+      "bytes": 6458,
+      "sha256": "f0af4840327afb08c7fc220628f39e27476ff3941303e265fd695ea9d39990ea"
+    },
+    {
+      "path": "backup\\HTMX-GO\\dist\\mitchellbauer\\docs\\htmx\\references\\attributes.md",
+      "bytes": 2249,
+      "sha256": "892aca8eb3362541d39a3734e724e86b00b4f6d0b691b1089d64a64760bb4eaa"
+    },
+    {
+      "path": "backup\\HTMX-GO\\dist\\mitchellbauer\\docs\\htmx\\references\\go-patterns.md",
+      "bytes": 3267,
+      "sha256": "6eaa16d0cb0b7f194978fbd439ccd8cddf5b6be40c58948b32e25c6985178ecb"
+    },
+    {
+      "path": "backup\\HTMX-GO\\dist\\mitchellbauer\\docs\\htmx\\references\\headers.md",
+      "bytes": 2592,
+      "sha256": "2640b7e4b737e7f68032a7aee76c10d3a08cbc7aa41fb4a31357bc3ee998fa79"
+    },
+    {
+      "path": "backup\\HTMX-GO\\dist\\mitchellbauer\\docs\\htmx\\references\\thoughtspark-admin-crud.md",
+      "bytes": 2034,
+      "sha256": "11e0b07fc48d1c41547f4c259b62d15debd5cb48c7dab096c0af23b9355b49ed"
+    },
+    {
+      "path": "backup\\HTMX-GO\\dist\\mitchellbauer\\docs\\htmx\\references\\ui-patterns.md",
+      "bytes": 1867,
+      "sha256": "3a7b18de224ac9185d0c743a6669e46d2931e67b8c3e767e338462cc841d9223"
+    },
+    {
+      "path": "backup\\HTMX-GO\\dist\\mitchellbauer\\docs\\htmx\\references\\version-notes.md",
+      "bytes": 1386,
+      "sha256": "31a2429a5c0c542684d8eb0e41d014c4c9153cf6abd124fc6d7b9147ea2e08a7"
+    },
+    {
+      "path": "backup\\HTMX-GO\\dist\\mitchellbauer\\docs\\htmx\\release-deltas\\htmx-2.0.9.md",
+      "bytes": 1340,
+      "sha256": "b5b056c192aacebbb0c6a040bc40ff09a32e5c1900f7f762c37c921ea4da4a83"
+    },
+    {
+      "path": "backup\\HTMX-GO\\mitchellbauer\\docs\\htmx\\DOC.md",
+      "bytes": 6458,
+      "sha256": "f0af4840327afb08c7fc220628f39e27476ff3941303e265fd695ea9d39990ea"
+    },
+    {
+      "path": "backup\\HTMX-GO\\mitchellbauer\\docs\\htmx\\references\\version-notes.md",
+      "bytes": 1386,
+      "sha256": "31a2429a5c0c542684d8eb0e41d014c4c9153cf6abd124fc6d7b9147ea2e08a7"
+    },
+    {
+      "path": "backup\\HTMX-GO-Beta\\README.md",
+      "bytes": 1191,
+      "sha256": "6c77b4695cc1e9a36747fdb8e41e56d3a863c559bac33f7e8c2f9fb585e127be"
+    },
+    {
+      "path": "backup\\HTMX-GO-Beta\\dist\\registry.json",
+      "bytes": 1147,
+      "sha256": "58620c04986f40130109fd3a1ceb8e0df0e68d37849fc1cdd9b57eefa414a331"
+    },
+    {
+      "path": "backup\\HTMX-GO-Beta\\dist\\search-index.json",
+      "bytes": 1362,
+      "sha256": "b5c4aa8f91ef5ec9e4ecbef241102ec7e079920af614b1d494fdbd4dc2594d83"
+    },
+    {
+      "path": "backup\\HTMX-GO-Beta\\dist\\mitchellbauer\\docs\\htmx-go-beta\\DOC.md",
+      "bytes": 3341,
+      "sha256": "4eee4830a88bb71bdc933a9f0a6cc858172ef95dea58a3aa5ab8ce3a06a7746d"
+    },
+    {
+      "path": "backup\\HTMX-GO-Beta\\dist\\mitchellbauer\\docs\\htmx-go-beta\\references\\attributes-and-events.md",
+      "bytes": 1349,
+      "sha256": "c864b60748c8aedeac63a8615df3a7634ce8fc7dedf010c4c0b74589ac16c291"
+    },
+    {
+      "path": "backup\\HTMX-GO-Beta\\dist\\mitchellbauer\\docs\\htmx-go-beta\\references\\beta6-release-notes.md",
+      "bytes": 1448,
+      "sha256": "b2d44eaf1c47658a877d7ee839ac9a30a4906e3ba1f9b6aeb62b0184da0caf71"
+    },
+    {
+      "path": "backup\\HTMX-GO-Beta\\dist\\mitchellbauer\\docs\\htmx-go-beta\\references\\go-patterns.md",
+      "bytes": 1553,
+      "sha256": "3b8a7cc78be1a67de97c16810185ac82806e48d95a3968b2f6ff2ce8e9f5bd53"
+    },
+    {
+      "path": "backup\\HTMX-GO-Beta\\dist\\mitchellbauer\\docs\\htmx-go-beta\\references\\headers.md",
+      "bytes": 1423,
+      "sha256": "0a7838ec25cfb4d6087ed0497d25461242d8d936aa3d2f25363d8b507c05d732"
+    },
+    {
+      "path": "backup\\HTMX-GO-Beta\\dist\\mitchellbauer\\docs\\htmx-go-beta\\references\\migration-from-v2.md",
+      "bytes": 2254,
+      "sha256": "93de51ccf052b16b0da273f7f06b402ce7897d4fb35490ded34222b8e55396d2"
+    },
+    {
+      "path": "backup\\HTMX-GO-Beta\\mitchellbauer\\docs\\htmx-go-beta\\DOC.md",
+      "bytes": 3341,
+      "sha256": "4eee4830a88bb71bdc933a9f0a6cc858172ef95dea58a3aa5ab8ce3a06a7746d"
+    },
+    {
+      "path": "backup\\HTMX-GO-Beta\\mitchellbauer\\docs\\htmx-go-beta\\references\\attributes-and-events.md",
+      "bytes": 1349,
+      "sha256": "c864b60748c8aedeac63a8615df3a7634ce8fc7dedf010c4c0b74589ac16c291"
+    },
+    {
+      "path": "backup\\HTMX-GO-Beta\\mitchellbauer\\docs\\htmx-go-beta\\references\\beta6-release-notes.md",
+      "bytes": 1448,
+      "sha256": "b2d44eaf1c47658a877d7ee839ac9a30a4906e3ba1f9b6aeb62b0184da0caf71"
+    },
+    {
+      "path": "backup\\HTMX-GO-Beta\\mitchellbauer\\docs\\htmx-go-beta\\references\\go-patterns.md",
+      "bytes": 1553,
+      "sha256": "3b8a7cc78be1a67de97c16810185ac82806e48d95a3968b2f6ff2ce8e9f5bd53"
+    },
+    {
+      "path": "backup\\HTMX-GO-Beta\\mitchellbauer\\docs\\htmx-go-beta\\references\\headers.md",
+      "bytes": 1423,
+      "sha256": "0a7838ec25cfb4d6087ed0497d25461242d8d936aa3d2f25363d8b507c05d732"
+    },
+    {
+      "path": "backup\\HTMX-GO-Beta\\mitchellbauer\\docs\\htmx-go-beta\\references\\migration-from-v2.md",
+      "bytes": 2254,
+      "sha256": "93de51ccf052b16b0da273f7f06b402ce7897d4fb35490ded34222b8e55396d2"
+    },
+    {
+      "path": "backup\\postgres-go\\README.md",
+      "bytes": 1603,
+      "sha256": "8f948f39b5c1ba5615bbdca2bf3568d8c94f6ce260b08d90518353caa8c4704e"
+    },
+    {
+      "path": "backup\\postgres-go\\dist\\registry.json",
+      "bytes": 1682,
+      "sha256": "2cdea5ef55d3d4a95ffa7a06119b8116a094be04ee23fbfd09a2bb495c56874d"
+    },
+    {
+      "path": "backup\\postgres-go\\dist\\search-index.json",
+      "bytes": 1204,
+      "sha256": "97824d3e449699446c03cf7a9a47e32316dbbd15b79baea4fa26ca0fedf3bf82"
+    },
+    {
+      "path": "backup\\postgres-go\\dist\\mitchellbauer\\docs\\postgres-go\\DOC.md",
+      "bytes": 2148,
+      "sha256": "b5ca3e75178a3f0efeea28e2791d05eb8f1fc1f4cf9c9ed02a9410c71c8948ce"
+    },
+    {
+      "path": "backup\\postgres-go\\dist\\mitchellbauer\\docs\\postgres-go\\references\\pgx-stdlib.md",
+      "bytes": 1527,
+      "sha256": "05e330f1dd644b9e41a69d92a4b86deb3138161f65dd5de5b6b6f71c05a95815"
+    },
+    {
+      "path": "backup\\postgres-go\\dist\\mitchellbauer\\docs\\postgres-go\\references\\query-patterns.md",
+      "bytes": 1588,
+      "sha256": "8068f22e7e9d99c60a41abb41cf6c495a617fb986bd111ef279e7015dbbf1c68"
+    },
+    {
+      "path": "backup\\postgres-go\\dist\\mitchellbauer\\docs\\postgres-go\\references\\schema-and-indexes.md",
+      "bytes": 1298,
+      "sha256": "d3eef3383fc45e0ca774bd1ff52b10ca7abacce090ffb1dee540ba8872d29b54"
+    },
+    {
+      "path": "backup\\postgres-go\\dist\\mitchellbauer\\docs\\postgres-go\\references\\testing-with-testcontainers.md",
+      "bytes": 991,
+      "sha256": "ad9c1fb784209c4444de19b4157ccfb2cb00105972dbaf59992fcb46d4a8992f"
+    },
+    {
+      "path": "backup\\postgres-go\\dist\\mitchellbauer\\docs\\postgres-go\\references\\version-notes.md",
+      "bytes": 1129,
+      "sha256": "b4888dcdaaa1ab87a1793c31af0bd665acb644cb43f367a8512027fbb8f16a8e"
+    },
+    {
+      "path": "backup\\postgres-go\\mitchellbauer\\docs\\postgres-go\\DOC.md",
+      "bytes": 2148,
+      "sha256": "b5ca3e75178a3f0efeea28e2791d05eb8f1fc1f4cf9c9ed02a9410c71c8948ce"
+    },
+    {
+      "path": "backup\\postgres-go\\mitchellbauer\\docs\\postgres-go\\references\\pgx-stdlib.md",
+      "bytes": 1527,
+      "sha256": "05e330f1dd644b9e41a69d92a4b86deb3138161f65dd5de5b6b6f71c05a95815"
+    },
+    {
+      "path": "backup\\postgres-go\\mitchellbauer\\docs\\postgres-go\\references\\version-notes.md",
+      "bytes": 1129,
+      "sha256": "b4888dcdaaa1ab87a1793c31af0bd665acb644cb43f367a8512027fbb8f16a8e"
+    },
+    {
+      "path": "backup\\sqlite-go\\README.md",
+      "bytes": 1595,
+      "sha256": "842f6f568f5a0f175deb6d64838a3c4bed1bf727d88a225ac8242f293a101514"
+    },
+    {
+      "path": "backup\\sqlite-go\\dist\\registry.json",
+      "bytes": 1149,
+      "sha256": "d6a882fa2a2e53330cf8dc5bae429e60a1fda5ac1832fb277aa542356ad88770"
+    },
+    {
+      "path": "backup\\sqlite-go\\dist\\search-index.json",
+      "bytes": 1014,
+      "sha256": "32b4d3a7509d622f49f3937673d18ac61e59911bb3dce3bb6a227b50dfc8c51b"
+    },
+    {
+      "path": "backup\\sqlite-go\\dist\\mitchellbauer\\docs\\sqlite-go\\DOC.md",
+      "bytes": 5369,
+      "sha256": "df95ed07ae1aa198a3e2d797e9ac40c4f57f088268f21d7616592478c711bcf9"
+    },
+    {
+      "path": "backup\\sqlite-go\\dist\\mitchellbauer\\docs\\sqlite-go\\references\\modernc-driver.md",
+      "bytes": 1785,
+      "sha256": "c9eb4695af23fdca30153ca6f0bd1b5ef840434c4f81d21a9bc2fbe5bd5cd8ec"
+    },
+    {
+      "path": "backup\\sqlite-go\\dist\\mitchellbauer\\docs\\sqlite-go\\references\\queries-and-transactions.md",
+      "bytes": 1171,
+      "sha256": "88872e5595084793affd7141c7c73415ddb1868f892c05e8498280bdb001f605"
+    },
+    {
+      "path": "backup\\sqlite-go\\dist\\mitchellbauer\\docs\\sqlite-go\\references\\schema-and-migrations.md",
+      "bytes": 1387,
+      "sha256": "353c1e18ca24520ed5bd02edc55b037ccdce35b181cb88182cbc782573328561"
+    },
+    {
+      "path": "backup\\sqlite-go\\dist\\mitchellbauer\\docs\\sqlite-go\\references\\sqlite-patterns.md",
+      "bytes": 1017,
+      "sha256": "5ce560bdf6a33a0bbc4a4ba39f24a51dba7177a938e5334569bb53fdd8be22ac"
+    },
+    {
+      "path": "backup\\sqlite-go\\dist\\mitchellbauer\\docs\\sqlite-go\\references\\version-notes.md",
+      "bytes": 1096,
+      "sha256": "7bdf85ada3b480dd8ac105f8fde9865b9fdf6b7d4120b7f62d4aece6f745f80c"
+    },
+    {
+      "path": "backup\\sqlite-go\\dist\\mitchellbauer\\docs\\sqlite-go\\release-deltas\\modernc-sqlite-1.54.0.md",
+      "bytes": 1002,
+      "sha256": "fa562485f2a0aa7cc97dd821a752d9a374e634a218283b5890c63622b45d8412"
+    },
+    {
+      "path": "backup\\sqlite-go\\mitchellbauer\\docs\\sqlite-go\\DOC.md",
+      "bytes": 5369,
+      "sha256": "df95ed07ae1aa198a3e2d797e9ac40c4f57f088268f21d7616592478c711bcf9"
+    },
+    {
+      "path": "backup\\sqlite-go\\mitchellbauer\\docs\\sqlite-go\\references\\modernc-driver.md",
+      "bytes": 1785,
+      "sha256": "c9eb4695af23fdca30153ca6f0bd1b5ef840434c4f81d21a9bc2fbe5bd5cd8ec"
+    },
+    {
+      "path": "backup\\sqlite-go\\mitchellbauer\\docs\\sqlite-go\\references\\version-notes.md",
+      "bytes": 1096,
+      "sha256": "7bdf85ada3b480dd8ac105f8fde9865b9fdf6b7d4120b7f62d4aece6f745f80c"
+    },
+    {
+      "path": "sources\\htmx2-changelog.txt",
+      "bytes": 38841,
+      "sha256": "b4b900b9306f0a7743bc4e5f252799e906dc18744d15d06aa39c79af0c56d0d7"
+    },
+    {
+      "path": "sources\\pg16.txt",
+      "bytes": 67547,
+      "sha256": "f2d3fd8acb2da275c7dd280e60850bfc3643d14a09247c1ab8b58850e5db33f4"
+    },
+    {
+      "path": "sources\\pg17.txt",
+      "bytes": 71077,
+      "sha256": "578e596f7fe50e8cc310055188ee050ddd1249ed3ebb80f7dc51159aec75ba9c"
+    },
+    {
+      "path": "sources\\pg18.txt",
+      "bytes": 86253,
+      "sha256": "d4346d0ae16efe7b45b47f5cc02d23faea379d6f39d7bf92c1cf9145be7e737d"
+    },
+    {
+      "path": "sources\\sqlite-mod.txt",
+      "bytes": 1061,
+      "sha256": "249a9230a78e49f8648b2f722371085b2b77505dc417e7e680824882a9e2b89b"
+    },
+    {
+      "path": "sources\\sqlite-readme.txt",
+      "bytes": 7492,
+      "sha256": "f655cbc954bd897275aa3a2333be39b3af5eec14c618d533d86fbde27994a2dc"
+    },
+    {
+      "path": "staged\\UPDATE-2026-10-04.md",
+      "bytes": 911,
+      "sha256": "1fd8d28ecdbde1a59e284a7b64c98757b1fb224421e8e0ff6d60af5ec4cb387f"
+    },
+    {
+      "path": "staged\\fyne-go\\README.md",
+      "bytes": 1750,
+      "sha256": "4f8a3b5351f659214132660b49e04375818a899f54fbc2e32c1f682930b7858a"
+    },
+    {
+      "path": "staged\\fyne-go\\dist\\registry.json",
+      "bytes": 1183,
+      "sha256": "bd79e6bd8f51496ad3b9d91b99f676a3c25a5b13abd43b552bfb3cf9633b5743"
+    },
+    {
+      "path": "staged\\fyne-go\\dist\\search-index.json",
+      "bytes": 1171,
+      "sha256": "e7c412c1382beaf1ddac8aa9f24a79dd6a7259c238a5c1092684d683759d5d84"
+    },
+    {
+      "path": "staged\\fyne-go\\dist\\mitchellbauer\\docs\\fyne-go\\DOC.md",
+      "bytes": 6938,
+      "sha256": "e7e36be92746c1f590b2103d45ad10ab4076b058cb23d6118ecb2e673dbadac9"
+    },
+    {
+      "path": "staged\\fyne-go\\dist\\mitchellbauer\\docs\\fyne-go\\references\\canvas-drawing.md",
+      "bytes": 5638,
+      "sha256": "15de074561c15a45935eab4ac7ae21c5a22ab85b979a34373eb2bc8cfa5d777d"
+    },
+    {
+      "path": "staged\\fyne-go\\dist\\mitchellbauer\\docs\\fyne-go\\references\\data-binding.md",
+      "bytes": 4536,
+      "sha256": "ca66f7c6db1a397b377b398844950110d9b2c4fbc039a07ff8a0a8d0897bc20a"
+    },
+    {
+      "path": "staged\\fyne-go\\dist\\mitchellbauer\\docs\\fyne-go\\references\\layouts-containers.md",
+      "bytes": 5522,
+      "sha256": "33f2e7d254cb043300ecd2d978fa692f3a3dcdb80ffd8b14579e46a0142d5a0c"
+    },
+    {
+      "path": "staged\\fyne-go\\dist\\mitchellbauer\\docs\\fyne-go\\references\\version-notes.md",
+      "bytes": 4247,
+      "sha256": "f35d94d6dc66c148cd89b90e26abf14e56eb5e91d339c2ff21cc5ccc6b2c708f"
+    },
+    {
+      "path": "staged\\fyne-go\\dist\\mitchellbauer\\docs\\fyne-go\\references\\widgets.md",
+      "bytes": 7585,
+      "sha256": "9aa34ce280cc1e0f41d0bbba43563be3a5bf8c5f9aaae8dd72c4b8b4dd3e9220"
+    },
+    {
+      "path": "staged\\fyne-go\\dist\\mitchellbauer\\docs\\fyne-go\\release-deltas\\fyne-2.8.0.md",
+      "bytes": 841,
+      "sha256": "fc66b20168257009758bd24d261a4ca6575a0eda49123e4e41911e0126b45876"
+    },
+    {
+      "path": "staged\\fyne-go\\dist\\mitchellbauer\\docs\\fyne-go\\release-deltas\\fyne-2.8.1.md",
+      "bytes": 659,
+      "sha256": "6f6a5e0a307d6f64c39b0ea8b72a629c6c8e714d8aaf97ef85a04abb794668e1"
+    },
+    {
+      "path": "staged\\fyne-go\\mitchellbauer\\docs\\fyne-go\\DOC.md",
+      "bytes": 6938,
+      "sha256": "e7e36be92746c1f590b2103d45ad10ab4076b058cb23d6118ecb2e673dbadac9"
+    },
+    {
+      "path": "staged\\fyne-go\\mitchellbauer\\docs\\fyne-go\\references\\canvas-drawing.md",
+      "bytes": 5638,
+      "sha256": "15de074561c15a45935eab4ac7ae21c5a22ab85b979a34373eb2bc8cfa5d777d"
+    },
+    {
+      "path": "staged\\fyne-go\\mitchellbauer\\docs\\fyne-go\\references\\data-binding.md",
+      "bytes": 4536,
+      "sha256": "ca66f7c6db1a397b377b398844950110d9b2c4fbc039a07ff8a0a8d0897bc20a"
+    },
+    {
+      "path": "staged\\fyne-go\\mitchellbauer\\docs\\fyne-go\\references\\layouts-containers.md",
+      "bytes": 5522,
+      "sha256": "33f2e7d254cb043300ecd2d978fa692f3a3dcdb80ffd8b14579e46a0142d5a0c"
+    },
+    {
+      "path": "staged\\fyne-go\\mitchellbauer\\docs\\fyne-go\\references\\version-notes.md",
+      "bytes": 4247,
+      "sha256": "f35d94d6dc66c148cd89b90e26abf14e56eb5e91d339c2ff21cc5ccc6b2c708f"
+    },
+    {
+      "path": "staged\\fyne-go\\mitchellbauer\\docs\\fyne-go\\references\\widgets.md",
+      "bytes": 7585,
+      "sha256": "9aa34ce280cc1e0f41d0bbba43563be3a5bf8c5f9aaae8dd72c4b8b4dd3e9220"
+    },
+    {
+      "path": "staged\\fyne-go\\mitchellbauer\\docs\\fyne-go\\release-deltas\\fyne-2.8.0.md",
+      "bytes": 841,
+      "sha256": "fc66b20168257009758bd24d261a4ca6575a0eda49123e4e41911e0126b45876"
+    },
+    {
+      "path": "staged\\fyne-go\\mitchellbauer\\docs\\fyne-go\\release-deltas\\fyne-2.8.1.md",
+      "bytes": 659,
+      "sha256": "6f6a5e0a307d6f64c39b0ea8b72a629c6c8e714d8aaf97ef85a04abb794668e1"
+    },
+    {
+      "path": "staged\\go-stdlib\\README.md",
+      "bytes": 2324,
+      "sha256": "2d9871c678a88eb9d6c30ea1d684a686624db8b5ba3a438ed0fa15c264b2653c"
+    },
+    {
+      "path": "staged\\go-stdlib\\dist\\registry.json",
+      "bytes": 1347,
+      "sha256": "e81c964ac0d96554a2aa08328ab9698ba1b11af7a6e568bc8412d15ee95ef897"
+    },
+    {
+      "path": "staged\\go-stdlib\\dist\\search-index.json",
+      "bytes": 1335,
+      "sha256": "7ba36e29a995866fdcb770e12751c69f16e4cdaca6c73994ae635312782d863d"
+    },
+    {
+      "path": "staged\\go-stdlib\\dist\\mitchellbauer\\docs\\go-stdlib\\DOC.md",
+      "bytes": 3102,
+      "sha256": "46e9ebe5d7ce6bd00b7f3e0a9190afad858ed33889492d2089078337c435d568"
+    },
+    {
+      "path": "staged\\go-stdlib\\dist\\mitchellbauer\\docs\\go-stdlib\\references\\context-time-sync.md",
+      "bytes": 602,
+      "sha256": "a804067ca81056f844b92177a12c41c56b8980be8534f4ecd1472e9faaff86f6"
+    },
+    {
+      "path": "staged\\go-stdlib\\dist\\mitchellbauer\\docs\\go-stdlib\\references\\crypto-tls.md",
+      "bytes": 1320,
+      "sha256": "b1eab2d7fc871e2bcfcb28f048a668bf721833daebf85bae278ef80973447e65"
+    },
+    {
+      "path": "staged\\go-stdlib\\dist\\mitchellbauer\\docs\\go-stdlib\\references\\database-sql.md",
+      "bytes": 851,
+      "sha256": "e034ccdb0cc7c662841ecab82b201a1ea925c396e815ef7654486e776062a758"
+    },
+    {
+      "path": "staged\\go-stdlib\\dist\\mitchellbauer\\docs\\go-stdlib\\references\\encoding-json.md",
+      "bytes": 446,
+      "sha256": "76e1b5cfd2a93dfaef19c4b48995340c4bc338ca7f9d8f1ddd63b296f5b756ad"
+    },
+    {
+      "path": "staged\\go-stdlib\\dist\\mitchellbauer\\docs\\go-stdlib\\references\\html-template.md",
+      "bytes": 615,
+      "sha256": "15a98dc60a40b8909c8621de4f24bd9ea2b3e17fd55d18f0eef25df7dfc009bc"
+    },
+    {
+      "path": "staged\\go-stdlib\\dist\\mitchellbauer\\docs\\go-stdlib\\references\\net-http.md",
+      "bytes": 1155,
+      "sha256": "059e6a2aa675824c2b2326e9c3585a63aa9ca46550e2a6562b699910b284b6a9"
+    },
+    {
+      "path": "staged\\go-stdlib\\dist\\mitchellbauer\\docs\\go-stdlib\\references\\os-io-fs.md",
+      "bytes": 1059,
+      "sha256": "fa1c923cbd33e9912cd5980626e1736995903101f20f81dfecc3658e97c50977"
+    },
+    {
+      "path": "staged\\go-stdlib\\dist\\mitchellbauer\\docs\\go-stdlib\\references\\testing.md",
+      "bytes": 767,
+      "sha256": "dcda5555a9e75eebb86b7834d94473f1ae7152cd40e3645dd792a861c3019672"
+    },
+    {
+      "path": "staged\\go-stdlib\\dist\\mitchellbauer\\docs\\go-stdlib\\release-deltas\\go1.26.1.md",
+      "bytes": 1448,
+      "sha256": "d488ac6fc6196471508be335769f8b36f6ad569e8688519986d9beea98b4c1bc"
+    },
+    {
+      "path": "staged\\go-stdlib\\dist\\mitchellbauer\\docs\\go-stdlib\\release-deltas\\go1.26.5.md",
+      "bytes": 1839,
+      "sha256": "1a6bafcead84ea8dbad045984914a4ebd1efb1822d18c1223c44491e25ecfd72"
+    },
+    {
+      "path": "staged\\go-stdlib\\dist\\mitchellbauer\\docs\\go-stdlib\\release-deltas\\go1.27.1.md",
+      "bytes": 1271,
+      "sha256": "fdf18a63a66e42ec46c5a36d491c1596a04b8ab0c48c6cf08deb09d5ac1ff20d"
+    },
+    {
+      "path": "staged\\go-stdlib\\mitchellbauer\\docs\\go-stdlib\\DOC.md",
+      "bytes": 3102,
+      "sha256": "46e9ebe5d7ce6bd00b7f3e0a9190afad858ed33889492d2089078337c435d568"
+    },
+    {
+      "path": "staged\\go-stdlib\\mitchellbauer\\docs\\go-stdlib\\references\\context-time-sync.md",
+      "bytes": 602,
+      "sha256": "a804067ca81056f844b92177a12c41c56b8980be8534f4ecd1472e9faaff86f6"
+    },
+    {
+      "path": "staged\\go-stdlib\\mitchellbauer\\docs\\go-stdlib\\references\\crypto-tls.md",
+      "bytes": 1320,
+      "sha256": "b1eab2d7fc871e2bcfcb28f048a668bf721833daebf85bae278ef80973447e65"
+    },
+    {
+      "path": "staged\\go-stdlib\\mitchellbauer\\docs\\go-stdlib\\references\\database-sql.md",
+      "bytes": 851,
+      "sha256": "e034ccdb0cc7c662841ecab82b201a1ea925c396e815ef7654486e776062a758"
+    },
+    {
+      "path": "staged\\go-stdlib\\mitchellbauer\\docs\\go-stdlib\\references\\encoding-json.md",
+      "bytes": 446,
+      "sha256": "76e1b5cfd2a93dfaef19c4b48995340c4bc338ca7f9d8f1ddd63b296f5b756ad"
+    },
+    {
+      "path": "staged\\go-stdlib\\mitchellbauer\\docs\\go-stdlib\\references\\html-template.md",
+      "bytes": 615,
+      "sha256": "15a98dc60a40b8909c8621de4f24bd9ea2b3e17fd55d18f0eef25df7dfc009bc"
+    },
+    {
+      "path": "staged\\go-stdlib\\mitchellbauer\\docs\\go-stdlib\\references\\net-http.md",
+      "bytes": 1155,
+      "sha256": "059e6a2aa675824c2b2326e9c3585a63aa9ca46550e2a6562b699910b284b6a9"
+    },
+    {
+      "path": "staged\\go-stdlib\\mitchellbauer\\docs\\go-stdlib\\references\\os-io-fs.md",
+      "bytes": 1059,
+      "sha256": "fa1c923cbd33e9912cd5980626e1736995903101f20f81dfecc3658e97c50977"
+    },
+    {
+      "path": "staged\\go-stdlib\\mitchellbauer\\docs\\go-stdlib\\references\\testing.md",
+      "bytes": 767,
+      "sha256": "dcda5555a9e75eebb86b7834d94473f1ae7152cd40e3645dd792a861c3019672"
+    },
+    {
+      "path": "staged\\go-stdlib\\mitchellbauer\\docs\\go-stdlib\\release-deltas\\go1.26.1.md",
+      "bytes": 1448,
+      "sha256": "d488ac6fc6196471508be335769f8b36f6ad569e8688519986d9beea98b4c1bc"
+    },
+    {
+      "path": "staged\\go-stdlib\\mitchellbauer\\docs\\go-stdlib\\release-deltas\\go1.26.5.md",
+      "bytes": 1839,
+      "sha256": "1a6bafcead84ea8dbad045984914a4ebd1efb1822d18c1223c44491e25ecfd72"
+    },
+    {
+      "path": "staged\\go-stdlib\\mitchellbauer\\docs\\go-stdlib\\release-deltas\\go1.27.1.md",
+      "bytes": 1271,
+      "sha256": "fdf18a63a66e42ec46c5a36d491c1596a04b8ab0c48c6cf08deb09d5ac1ff20d"
+    },
+    {
+      "path": "staged\\HTMX-GO\\README.md",
+      "bytes": 1769,
+      "sha256": "7dd26d42cc9dad2fa36ba7ec9fe3b52418da909178f847bfe679d44a6b2ac36b"
+    },
+    {
+      "path": "staged\\HTMX-GO\\dist\\registry.json",
+      "bytes": 1203,
+      "sha256": "a6c6f38465d21a21d6908cf75c365373a082eba464868ba1858d76e8335ec917"
+    },
+    {
+      "path": "staged\\HTMX-GO\\dist\\search-index.json",
+      "bytes": 1053,
+      "sha256": "3562b2a039f99f81baf0c7c3515fdf13dfd101b2a4fe7e7d3237354d7b0cee66"
+    },
+    {
+      "path": "staged\\HTMX-GO\\dist\\mitchellbauer\\docs\\htmx\\DOC.md",
+      "bytes": 6797,
+      "sha256": "5d92072307f023c37953a4da9b305b31d458d6e2171be7130480c6b380762649"
+    },
+    {
+      "path": "staged\\HTMX-GO\\dist\\mitchellbauer\\docs\\htmx\\references\\attributes.md",
+      "bytes": 2249,
+      "sha256": "892aca8eb3362541d39a3734e724e86b00b4f6d0b691b1089d64a64760bb4eaa"
+    },
+    {
+      "path": "staged\\HTMX-GO\\dist\\mitchellbauer\\docs\\htmx\\references\\go-patterns.md",
+      "bytes": 3267,
+      "sha256": "6eaa16d0cb0b7f194978fbd439ccd8cddf5b6be40c58948b32e25c6985178ecb"
+    },
+    {
+      "path": "staged\\HTMX-GO\\dist\\mitchellbauer\\docs\\htmx\\references\\headers.md",
+      "bytes": 2592,
+      "sha256": "2640b7e4b737e7f68032a7aee76c10d3a08cbc7aa41fb4a31357bc3ee998fa79"
+    },
+    {
+      "path": "staged\\HTMX-GO\\dist\\mitchellbauer\\docs\\htmx\\references\\thoughtspark-admin-crud.md",
+      "bytes": 2034,
+      "sha256": "11e0b07fc48d1c41547f4c259b62d15debd5cb48c7dab096c0af23b9355b49ed"
+    },
+    {
+      "path": "staged\\HTMX-GO\\dist\\mitchellbauer\\docs\\htmx\\references\\ui-patterns.md",
+      "bytes": 1867,
+      "sha256": "3a7b18de224ac9185d0c743a6669e46d2931e67b8c3e767e338462cc841d9223"
+    },
+    {
+      "path": "staged\\HTMX-GO\\dist\\mitchellbauer\\docs\\htmx\\references\\version-notes.md",
+      "bytes": 665,
+      "sha256": "12905e4d3c52949d7f27e77a42f8b1a8cace5f34f4caf4e32634325d31103ec1"
+    },
+    {
+      "path": "staged\\HTMX-GO\\dist\\mitchellbauer\\docs\\htmx\\release-deltas\\htmx-2.0.11.md",
+      "bytes": 759,
+      "sha256": "174ae04d74ae68e627496d4ce7aca19d38e32ccf6439426271469d0a7cfb103e"
+    },
+    {
+      "path": "staged\\HTMX-GO\\dist\\mitchellbauer\\docs\\htmx\\release-deltas\\htmx-2.0.9.md",
+      "bytes": 1340,
+      "sha256": "b5b056c192aacebbb0c6a040bc40ff09a32e5c1900f7f762c37c921ea4da4a83"
+    },
+    {
+      "path": "staged\\HTMX-GO\\mitchellbauer\\docs\\htmx\\DOC.md",
+      "bytes": 6797,
+      "sha256": "5d92072307f023c37953a4da9b305b31d458d6e2171be7130480c6b380762649"
+    },
+    {
+      "path": "staged\\HTMX-GO\\mitchellbauer\\docs\\htmx\\references\\attributes.md",
+      "bytes": 2249,
+      "sha256": "892aca8eb3362541d39a3734e724e86b00b4f6d0b691b1089d64a64760bb4eaa"
+    },
+    {
+      "path": "staged\\HTMX-GO\\mitchellbauer\\docs\\htmx\\references\\go-patterns.md",
+      "bytes": 3267,
+      "sha256": "6eaa16d0cb0b7f194978fbd439ccd8cddf5b6be40c58948b32e25c6985178ecb"
+    },
+    {
+      "path": "staged\\HTMX-GO\\mitchellbauer\\docs\\htmx\\references\\headers.md",
+      "bytes": 2592,
+      "sha256": "2640b7e4b737e7f68032a7aee76c10d3a08cbc7aa41fb4a31357bc3ee998fa79"
+    },
+    {
+      "path": "staged\\HTMX-GO\\mitchellbauer\\docs\\htmx\\references\\thoughtspark-admin-crud.md",
+      "bytes": 2034,
+      "sha256": "11e0b07fc48d1c41547f4c259b62d15debd5cb48c7dab096c0af23b9355b49ed"
+    },
+    {
+      "path": "staged\\HTMX-GO\\mitchellbauer\\docs\\htmx\\references\\ui-patterns.md",
+      "bytes": 1867,
+      "sha256": "3a7b18de224ac9185d0c743a6669e46d2931e67b8c3e767e338462cc841d9223"
+    },
+    {
+      "path": "staged\\HTMX-GO\\mitchellbauer\\docs\\htmx\\references\\version-notes.md",
+      "bytes": 665,
+      "sha256": "12905e4d3c52949d7f27e77a42f8b1a8cace5f34f4caf4e32634325d31103ec1"
+    },
+    {
+      "path": "staged\\HTMX-GO\\mitchellbauer\\docs\\htmx\\release-deltas\\htmx-2.0.11.md",
+      "bytes": 759,
+      "sha256": "174ae04d74ae68e627496d4ce7aca19d38e32ccf6439426271469d0a7cfb103e"
+    },
+    {
+      "path": "staged\\HTMX-GO\\mitchellbauer\\docs\\htmx\\release-deltas\\htmx-2.0.9.md",
+      "bytes": 1340,
+      "sha256": "b5b056c192aacebbb0c6a040bc40ff09a32e5c1900f7f762c37c921ea4da4a83"
+    },
+    {
+      "path": "staged\\HTMX-GO-Beta\\README.md",
+      "bytes": 930,
+      "sha256": "7409c65682a63790b529e82779fa5e7f2490c0b591c63bea4721447a8371d940"
+    },
+    {
+      "path": "staged\\HTMX-GO-Beta\\dist\\registry.json",
+      "bytes": 2210,
+      "sha256": "f4b9b8a2ae4ff540139949d40dae55d63f1b48f7681c958db6cbbf81d9841d39"
+    },
+    {
+      "path": "staged\\HTMX-GO-Beta\\dist\\search-index.json",
+      "bytes": 1626,
+      "sha256": "ee2efe2448c177c5899aa2452ac9a35be9e32d7ee85b8c0f4324f5ab16192fbb"
+    },
+    {
+      "path": "staged\\HTMX-GO-Beta\\dist\\mitchellbauer\\docs\\htmx-go\\DOC.md",
+      "bytes": 3480,
+      "sha256": "5c50813edb8530e2d3f00208f530bcef102fc0976a45f86766eb386d26b64f13"
+    },
+    {
+      "path": "staged\\HTMX-GO-Beta\\dist\\mitchellbauer\\docs\\htmx-go\\references\\attributes-and-events.md",
+      "bytes": 1406,
+      "sha256": "f6c66813d1d33006bbeb01e7651c3d4460c28400199ea4a0e5c528ad8986e5dc"
+    },
+    {
+      "path": "staged\\HTMX-GO-Beta\\dist\\mitchellbauer\\docs\\htmx-go\\references\\beta6-release-notes.md",
+      "bytes": 1586,
+      "sha256": "6d618fb35795fbd309b0b8659d00da83c3d2d8edef6e4d6dc755ada6da037966"
+    },
+    {
+      "path": "staged\\HTMX-GO-Beta\\dist\\mitchellbauer\\docs\\htmx-go\\references\\go-patterns.md",
+      "bytes": 1608,
+      "sha256": "5ad386c3301d4a492ba411a6387bbdfe958fc2c40f722f5bf02fad3373e945d0"
+    },
+    {
+      "path": "staged\\HTMX-GO-Beta\\dist\\mitchellbauer\\docs\\htmx-go\\references\\headers.md",
+      "bytes": 1496,
+      "sha256": "e432d4fa66932cacab7ef9175d19f3b1c5a830742b86b24a6ac67491fe68ea37"
+    },
+    {
+      "path": "staged\\HTMX-GO-Beta\\dist\\mitchellbauer\\docs\\htmx-go\\references\\htmx-4.0.0-release-notes.md",
+      "bytes": 1075,
+      "sha256": "c74412a99cda929c23eab26d7e120b1cbb45d8fd6483256219cf6450d41e1d5b"
+    },
+    {
+      "path": "staged\\HTMX-GO-Beta\\dist\\mitchellbauer\\docs\\htmx-go\\references\\migration-from-v2.md",
+      "bytes": 2872,
+      "sha256": "b6b7e2e262441f194a2c5e915af3a9f8925ca0ad090df2fdf871ac5763d99b3d"
+    },
+    {
+      "path": "staged\\HTMX-GO-Beta\\dist\\mitchellbauer\\docs\\htmx-go-beta\\DOC.md",
+      "bytes": 3499,
+      "sha256": "112a44f3ac997267ea096286fff6fcc57ff0c2a6e5b7fdd4fa205443df79ccb4"
+    },
+    {
+      "path": "staged\\HTMX-GO-Beta\\dist\\mitchellbauer\\docs\\htmx-go-beta\\references\\attributes-and-events.md",
+      "bytes": 1406,
+      "sha256": "f6c66813d1d33006bbeb01e7651c3d4460c28400199ea4a0e5c528ad8986e5dc"
+    },
+    {
+      "path": "staged\\HTMX-GO-Beta\\dist\\mitchellbauer\\docs\\htmx-go-beta\\references\\beta6-release-notes.md",
+      "bytes": 1586,
+      "sha256": "6d618fb35795fbd309b0b8659d00da83c3d2d8edef6e4d6dc755ada6da037966"
+    },
+    {
+      "path": "staged\\HTMX-GO-Beta\\dist\\mitchellbauer\\docs\\htmx-go-beta\\references\\go-patterns.md",
+      "bytes": 1608,
+      "sha256": "5ad386c3301d4a492ba411a6387bbdfe958fc2c40f722f5bf02fad3373e945d0"
+    },
+    {
+      "path": "staged\\HTMX-GO-Beta\\dist\\mitchellbauer\\docs\\htmx-go-beta\\references\\headers.md",
+      "bytes": 1496,
+      "sha256": "e432d4fa66932cacab7ef9175d19f3b1c5a830742b86b24a6ac67491fe68ea37"
+    },
+    {
+      "path": "staged\\HTMX-GO-Beta\\dist\\mitchellbauer\\docs\\htmx-go-beta\\references\\htmx-4.0.0-release-notes.md",
+      "bytes": 1075,
+      "sha256": "c74412a99cda929c23eab26d7e120b1cbb45d8fd6483256219cf6450d41e1d5b"
+    },
+    {
+      "path": "staged\\HTMX-GO-Beta\\dist\\mitchellbauer\\docs\\htmx-go-beta\\references\\migration-from-v2.md",
+      "bytes": 2872,
+      "sha256": "b6b7e2e262441f194a2c5e915af3a9f8925ca0ad090df2fdf871ac5763d99b3d"
+    },
+    {
+      "path": "staged\\HTMX-GO-Beta\\mitchellbauer\\docs\\htmx-go\\DOC.md",
+      "bytes": 3480,
+      "sha256": "5c50813edb8530e2d3f00208f530bcef102fc0976a45f86766eb386d26b64f13"
+    },
+    {
+      "path": "staged\\HTMX-GO-Beta\\mitchellbauer\\docs\\htmx-go\\references\\attributes-and-events.md",
+      "bytes": 1406,
+      "sha256": "f6c66813d1d33006bbeb01e7651c3d4460c28400199ea4a0e5c528ad8986e5dc"
+    },
+    {
+      "path": "staged\\HTMX-GO-Beta\\mitchellbauer\\docs\\htmx-go\\references\\beta6-release-notes.md",
+      "bytes": 1586,
+      "sha256": "6d618fb35795fbd309b0b8659d00da83c3d2d8edef6e4d6dc755ada6da037966"
+    },
+    {
+      "path": "staged\\HTMX-GO-Beta\\mitchellbauer\\docs\\htmx-go\\references\\go-patterns.md",
+      "bytes": 1608,
+      "sha256": "5ad386c3301d4a492ba411a6387bbdfe958fc2c40f722f5bf02fad3373e945d0"
+    },
+    {
+      "path": "staged\\HTMX-GO-Beta\\mitchellbauer\\docs\\htmx-go\\references\\headers.md",
+      "bytes": 1496,
+      "sha256": "e432d4fa66932cacab7ef9175d19f3b1c5a830742b86b24a6ac67491fe68ea37"
+    },
+    {
+      "path": "staged\\HTMX-GO-Beta\\mitchellbauer\\docs\\htmx-go\\references\\htmx-4.0.0-release-notes.md",
+      "bytes": 1075,
+      "sha256": "c74412a99cda929c23eab26d7e120b1cbb45d8fd6483256219cf6450d41e1d5b"
+    },
+    {
+      "path": "staged\\HTMX-GO-Beta\\mitchellbauer\\docs\\htmx-go\\references\\migration-from-v2.md",
+      "bytes": 2872,
+      "sha256": "b6b7e2e262441f194a2c5e915af3a9f8925ca0ad090df2fdf871ac5763d99b3d"
+    },
+    {
+      "path": "staged\\HTMX-GO-Beta\\mitchellbauer\\docs\\htmx-go-beta\\DOC.md",
+      "bytes": 3499,
+      "sha256": "112a44f3ac997267ea096286fff6fcc57ff0c2a6e5b7fdd4fa205443df79ccb4"
+    },
+    {
+      "path": "staged\\HTMX-GO-Beta\\mitchellbauer\\docs\\htmx-go-beta\\references\\attributes-and-events.md",
+      "bytes": 1406,
+      "sha256": "f6c66813d1d33006bbeb01e7651c3d4460c28400199ea4a0e5c528ad8986e5dc"
+    },
+    {
+      "path": "staged\\HTMX-GO-Beta\\mitchellbauer\\docs\\htmx-go-beta\\references\\beta6-release-notes.md",
+      "bytes": 1586,
+      "sha256": "6d618fb35795fbd309b0b8659d00da83c3d2d8edef6e4d6dc755ada6da037966"
+    },
+    {
+      "path": "staged\\HTMX-GO-Beta\\mitchellbauer\\docs\\htmx-go-beta\\references\\go-patterns.md",
+      "bytes": 1608,
+      "sha256": "5ad386c3301d4a492ba411a6387bbdfe958fc2c40f722f5bf02fad3373e945d0"
+    },
+    {
+      "path": "staged\\HTMX-GO-Beta\\mitchellbauer\\docs\\htmx-go-beta\\references\\headers.md",
+      "bytes": 1496,
+      "sha256": "e432d4fa66932cacab7ef9175d19f3b1c5a830742b86b24a6ac67491fe68ea37"
+    },
+    {
+      "path": "staged\\HTMX-GO-Beta\\mitchellbauer\\docs\\htmx-go-beta\\references\\htmx-4.0.0-release-notes.md",
+      "bytes": 1075,
+      "sha256": "c74412a99cda929c23eab26d7e120b1cbb45d8fd6483256219cf6450d41e1d5b"
+    },
+    {
+      "path": "staged\\HTMX-GO-Beta\\mitchellbauer\\docs\\htmx-go-beta\\references\\migration-from-v2.md",
+      "bytes": 2872,
+      "sha256": "b6b7e2e262441f194a2c5e915af3a9f8925ca0ad090df2fdf871ac5763d99b3d"
+    },
+    {
+      "path": "staged\\postgres-go\\README.md",
+      "bytes": 1733,
+      "sha256": "2f2bdfd2bdb58dfb595be06f0d45203af23ce347c8e5f5652afa5864678a06b9"
+    },
+    {
+      "path": "staged\\postgres-go\\dist\\registry.json",
+      "bytes": 1187,
+      "sha256": "289f8817400fcfccf0f3a47258c08e3df0632bbece0701c1db3ea81727565174"
+    },
+    {
+      "path": "staged\\postgres-go\\dist\\search-index.json",
+      "bytes": 1204,
+      "sha256": "97824d3e449699446c03cf7a9a47e32316dbbd15b79baea4fa26ca0fedf3bf82"
+    },
+    {
+      "path": "staged\\postgres-go\\dist\\mitchellbauer\\docs\\postgres-go\\DOC.md",
+      "bytes": 2267,
+      "sha256": "91b3fc79e6cc6c406db938c7ff59ad12912eab66cbc4368413326ea10c217cf9"
+    },
+    {
+      "path": "staged\\postgres-go\\dist\\mitchellbauer\\docs\\postgres-go\\references\\pgx-stdlib.md",
+      "bytes": 1826,
+      "sha256": "c791fe16521559eb180dd5f0678a6f09d1b181a9fb1bcd03c0232ad7004a029b"
+    },
+    {
+      "path": "staged\\postgres-go\\dist\\mitchellbauer\\docs\\postgres-go\\references\\query-patterns.md",
+      "bytes": 1588,
+      "sha256": "8068f22e7e9d99c60a41abb41cf6c495a617fb986bd111ef279e7015dbbf1c68"
+    },
+    {
+      "path": "staged\\postgres-go\\dist\\mitchellbauer\\docs\\postgres-go\\references\\schema-and-indexes.md",
+      "bytes": 1298,
+      "sha256": "d3eef3383fc45e0ca774bd1ff52b10ca7abacce090ffb1dee540ba8872d29b54"
+    },
+    {
+      "path": "staged\\postgres-go\\dist\\mitchellbauer\\docs\\postgres-go\\references\\testing-with-testcontainers.md",
+      "bytes": 991,
+      "sha256": "ad9c1fb784209c4444de19b4157ccfb2cb00105972dbaf59992fcb46d4a8992f"
+    },
+    {
+      "path": "staged\\postgres-go\\dist\\mitchellbauer\\docs\\postgres-go\\references\\version-notes.md",
+      "bytes": 1056,
+      "sha256": "381217dd528c553ae8d08f82923c518873ee33d3c8be61107783435f68ac72cb"
+    },
+    {
+      "path": "staged\\postgres-go\\dist\\mitchellbauer\\docs\\postgres-go\\release-deltas\\pgx-5.11.0.md",
+      "bytes": 915,
+      "sha256": "b4c13838dfd51cff555236f1b8cde9e9db9559798eca51a428602ec8d9dc1270"
+    },
+    {
+      "path": "staged\\postgres-go\\mitchellbauer\\docs\\postgres-go\\DOC.md",
+      "bytes": 2267,
+      "sha256": "91b3fc79e6cc6c406db938c7ff59ad12912eab66cbc4368413326ea10c217cf9"
+    },
+    {
+      "path": "staged\\postgres-go\\mitchellbauer\\docs\\postgres-go\\references\\pgx-stdlib.md",
+      "bytes": 1826,
+      "sha256": "c791fe16521559eb180dd5f0678a6f09d1b181a9fb1bcd03c0232ad7004a029b"
+    },
+    {
+      "path": "staged\\postgres-go\\mitchellbauer\\docs\\postgres-go\\references\\query-patterns.md",
+      "bytes": 1588,
+      "sha256": "8068f22e7e9d99c60a41abb41cf6c495a617fb986bd111ef279e7015dbbf1c68"
+    },
+    {
+      "path": "staged\\postgres-go\\mitchellbauer\\docs\\postgres-go\\references\\schema-and-indexes.md",
+      "bytes": 1298,
+      "sha256": "d3eef3383fc45e0ca774bd1ff52b10ca7abacce090ffb1dee540ba8872d29b54"
+    },
+    {
+      "path": "staged\\postgres-go\\mitchellbauer\\docs\\postgres-go\\references\\testing-with-testcontainers.md",
+      "bytes": 991,
+      "sha256": "ad9c1fb784209c4444de19b4157ccfb2cb00105972dbaf59992fcb46d4a8992f"
+    },
+    {
+      "path": "staged\\postgres-go\\mitchellbauer\\docs\\postgres-go\\references\\version-notes.md",
+      "bytes": 1056,
+      "sha256": "381217dd528c553ae8d08f82923c518873ee33d3c8be61107783435f68ac72cb"
+    },
+    {
+      "path": "staged\\postgres-go\\mitchellbauer\\docs\\postgres-go\\release-deltas\\pgx-5.11.0.md",
+      "bytes": 915,
+      "sha256": "b4c13838dfd51cff555236f1b8cde9e9db9559798eca51a428602ec8d9dc1270"
+    },
+    {
+      "path": "staged\\sqlite-go\\README.md",
+      "bytes": 1756,
+      "sha256": "59fee411c0ebe5fb88f59bcad8273d97971984defa4362318e0b135130339c10"
+    },
+    {
+      "path": "staged\\sqlite-go\\dist\\registry.json",
+      "bytes": 1208,
+      "sha256": "540aba0b06f3c16f22a0fc3516cf5288da9cf49ea21419edc790a05272d27139"
+    },
+    {
+      "path": "staged\\sqlite-go\\dist\\search-index.json",
+      "bytes": 1014,
+      "sha256": "32b4d3a7509d622f49f3937673d18ac61e59911bb3dce3bb6a227b50dfc8c51b"
+    },
+    {
+      "path": "staged\\sqlite-go\\dist\\mitchellbauer\\docs\\sqlite-go\\DOC.md",
+      "bytes": 5642,
+      "sha256": "a37c6c946d8b6e171dcd8d864cf726ef9a8bfc736e43f9d0360cf0de99bedd4e"
+    },
+    {
+      "path": "staged\\sqlite-go\\dist\\mitchellbauer\\docs\\sqlite-go\\references\\modernc-driver.md",
+      "bytes": 2150,
+      "sha256": "ada894ef6afe28b602eaed4dcda30ea82ece4eb822997c8469f2a8a23fbde499"
+    },
+    {
+      "path": "staged\\sqlite-go\\dist\\mitchellbauer\\docs\\sqlite-go\\references\\queries-and-transactions.md",
+      "bytes": 1171,
+      "sha256": "88872e5595084793affd7141c7c73415ddb1868f892c05e8498280bdb001f605"
+    },
+    {
+      "path": "staged\\sqlite-go\\dist\\mitchellbauer\\docs\\sqlite-go\\references\\schema-and-migrations.md",
+      "bytes": 1387,
+      "sha256": "353c1e18ca24520ed5bd02edc55b037ccdce35b181cb88182cbc782573328561"
+    },
+    {
+      "path": "staged\\sqlite-go\\dist\\mitchellbauer\\docs\\sqlite-go\\references\\sqlite-patterns.md",
+      "bytes": 1017,
+      "sha256": "5ce560bdf6a33a0bbc4a4ba39f24a51dba7177a938e5334569bb53fdd8be22ac"
+    },
+    {
+      "path": "staged\\sqlite-go\\dist\\mitchellbauer\\docs\\sqlite-go\\references\\version-notes.md",
+      "bytes": 748,
+      "sha256": "e5db2278c500d0bbf89189a69ce0001dcfb9b8ce4535c57b90694d8722dea8f3"
+    },
+    {
+      "path": "staged\\sqlite-go\\dist\\mitchellbauer\\docs\\sqlite-go\\release-deltas\\modernc-sqlite-1.54.0.md",
+      "bytes": 1002,
+      "sha256": "fa562485f2a0aa7cc97dd821a752d9a374e634a218283b5890c63622b45d8412"
+    },
+    {
+      "path": "staged\\sqlite-go\\dist\\mitchellbauer\\docs\\sqlite-go\\release-deltas\\modernc-sqlite-1.60.1.md",
+      "bytes": 1221,
+      "sha256": "cf3812d34cbe32c011f37600f32f3cfbb5778e9163a3cd03a8f92f66223fac0e"
+    },
+    {
+      "path": "staged\\sqlite-go\\mitchellbauer\\docs\\sqlite-go\\DOC.md",
+      "bytes": 5642,
+      "sha256": "a37c6c946d8b6e171dcd8d864cf726ef9a8bfc736e43f9d0360cf0de99bedd4e"
+    },
+    {
+      "path": "staged\\sqlite-go\\mitchellbauer\\docs\\sqlite-go\\references\\modernc-driver.md",
+      "bytes": 2150,
+      "sha256": "ada894ef6afe28b602eaed4dcda30ea82ece4eb822997c8469f2a8a23fbde499"
+    },
+    {
+      "path": "staged\\sqlite-go\\mitchellbauer\\docs\\sqlite-go\\references\\queries-and-transactions.md",
+      "bytes": 1171,
+      "sha256": "88872e5595084793affd7141c7c73415ddb1868f892c05e8498280bdb001f605"
+    },
+    {
+      "path": "staged\\sqlite-go\\mitchellbauer\\docs\\sqlite-go\\references\\schema-and-migrations.md",
+      "bytes": 1387,
+      "sha256": "353c1e18ca24520ed5bd02edc55b037ccdce35b181cb88182cbc782573328561"
+    },
+    {
+      "path": "staged\\sqlite-go\\mitchellbauer\\docs\\sqlite-go\\references\\sqlite-patterns.md",
+      "bytes": 1017,
+      "sha256": "5ce560bdf6a33a0bbc4a4ba39f24a51dba7177a938e5334569bb53fdd8be22ac"
+    },
+    {
+      "path": "staged\\sqlite-go\\mitchellbauer\\docs\\sqlite-go\\references\\version-notes.md",
+      "bytes": 748,
+      "sha256": "e5db2278c500d0bbf89189a69ce0001dcfb9b8ce4535c57b90694d8722dea8f3"
+    },
+    {
+      "path": "staged\\sqlite-go\\mitchellbauer\\docs\\sqlite-go\\release-deltas\\modernc-sqlite-1.54.0.md",
+      "bytes": 1002,
+      "sha256": "fa562485f2a0aa7cc97dd821a752d9a374e634a218283b5890c63622b45d8412"
+    },
+    {
+      "path": "staged\\sqlite-go\\mitchellbauer\\docs\\sqlite-go\\release-deltas\\modernc-sqlite-1.60.1.md",
+      "bytes": 1221,
+      "sha256": "cf3812d34cbe32c011f37600f32f3cfbb5778e9163a3cd03a8f92f66223fac0e"
+    }
+  ],
+  "contextProjectFiles": [
+    {
+      "path": ".gitattributes",
+      "sha256": "1a1dbe176bc233b499d35a57db7513f2941c99ab9759f177830c9149be99005b"
+    },
+    {
+      "path": ".gitignore",
+      "sha256": "b1884acc9defdade8fb4d9a9265f047e575e38112b6ec299af790bcee42ccd98"
+    },
+    {
+      "path": "BuildToToolsDir.bat",
+      "sha256": "a6deddede304bd456e8339fbdd982c9d16ae31db9c5fb88cd8c83bea390106ea"
+    },
+    {
+      "path": "clipboard_nonwindows.go",
+      "sha256": "be6986990274d98a0b2d30c028ab1905437f8daf64d6ce16a4f27c8458526cde"
+    },
+    {
+      "path": "clipboard_windows_test.go",
+      "sha256": "269c20d7d0f62b4a61f3a67f493919932094c253e8011b81511bb0fac09ff07b"
+    },
+    {
+      "path": "clipboard_windows.go",
+      "sha256": "38508fc8ff61c1f0fe7e517cbabbf051af42e63323f7430fcfa3f98b976c145d"
+    },
+    {
+      "path": "config.json",
+      "sha256": "80ae2977ee9d477ea497254a6df9ce2c7488e6dfef54435ea00a6487ec2b1865"
+    },
+    {
+      "path": "context_test.go",
+      "sha256": "3e26830ab11e27b5593159b42131e439e4012d099a677fe9063acd34d48ba911"
+    },
+    {
+      "path": "context.exe",
+      "sha256": "7103ec7f92df182761a1f82e94f06bc56ec555a65d098761844c3de4d713a462"
+    },
+    {
+      "path": "context.go",
+      "sha256": "183014db1bdd1e11529a5bfa1e0058778cacac2ee4d86e9c884eb9e9d2af90f4"
+    },
+    {
+      "path": "go.mod",
+      "sha256": "3e38b099dd77334f5708457a04dc11ea475aca3f0914ea571ee39dfb5d17c6bd"
+    },
+    {
+      "path": "LICENSE",
+      "sha256": "cf02be189c44ab94c759e06f9f2a1c2366f1a73ad6096dc3b0b38b389a54188a"
+    },
+    {
+      "path": "linux_update_build.sh",
+      "sha256": "7ffbd445fd97b7a095665d1d66f41faed4f84db7aca28f546d9b3249c25b1d41"
+    },
+    {
+      "path": "README.md",
+      "sha256": "7aefe5f18bca81eb6cfa79f1e0620c5c404eff5db8de5ccadf372542c52a3273"
+    },
+    {
+      "path": "TODO.md",
+      "sha256": "cc1b7af13a788f29827c2eb0ea61d144066f584a6dbd0432a8f25649120a2c16"
+    },
+    {
+      "path": "Update.bat",
+      "sha256": "3e92abcc92be5141a99a4b63ac868efa9f3993cb51fe8acd99e9ead6b9dd35f0"
+    },
+    {
+      "path": "windows_build.bat",
+      "sha256": "3e92abcc92be5141a99a4b63ac868efa9f3993cb51fe8acd99e9ead6b9dd35f0"
+    }
+  ],
+  "sourceRemovedAfterVerification": true,
+  "oldApplicationFilesUnchanged": true
+}

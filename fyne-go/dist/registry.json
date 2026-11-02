@@ -1,0 +1,47 @@
+{
+  "version": "1.0.0",
+  "generated": "2026-11-01T19:58:05.891Z",
+  "docs": [
+    {
+      "id": "mitchellbauer/fyne-go",
+      "name": "fyne-go",
+      "description": "Fyne v2 GUI toolkit guide for building cross-platform desktop apps in Go",
+      "source": "community",
+      "tags": [
+        "fyne",
+        "go",
+        "gui",
+        "desktop",
+        "ui",
+        "cross-platform",
+        "widgets"
+      ],
+      "languages": [
+        {
+          "language": "go",
+          "versions": [
+            {
+              "version": "2.8.2",
+              "path": "mitchellbauer/docs/fyne-go",
+              "files": [
+                "DOC.md",
+                "references/canvas-drawing.md",
+                "references/data-binding.md",
+                "references/layouts-containers.md",
+                "references/version-notes.md",
+                "references/widgets.md",
+                "release-deltas/fyne-2.8.0.md",
+                "release-deltas/fyne-2.8.1.md",
+                "release-deltas/fyne-2.8.2.md"
+              ],
+              "size": 37344,
+              "lastUpdated": "2026-11-01"
+            }
+          ],
+          "recommendedVersion": "2.8.2"
+        }
+      ]
+    }
+  ],
+  "skills": []
+}

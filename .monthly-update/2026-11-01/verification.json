@@ -1,0 +1,61 @@
+{
+  "checkedOn": "2026-11-01",
+  "entries": [
+    {
+      "id": "mitchellbauer/clipboard-dependencies",
+      "version": "1.0.0",
+      "search": "passed",
+      "fullRetrieval": "passed"
+    },
+    {
+      "id": "mitchellbauer/htmx",
+      "version": "2.0.11",
+      "search": "passed",
+      "fullRetrieval": "passed"
+    },
+    {
+      "id": "mitchellbauer/htmx-go",
+      "version": "4.0.0",
+      "search": "passed",
+      "fullRetrieval": "passed"
+    },
+    {
+      "id": "mitchellbauer/htmx-go-beta",
+      "version": "4.0.0",
+      "search": "passed",
+      "fullRetrieval": "passed"
+    },
+    {
+      "id": "mitchellbauer/go-stdlib",
+      "version": "1.27.3",
+      "search": "passed",
+      "fullRetrieval": "passed"
+    },
+    {
+      "id": "mitchellbauer/fyne-go",
+      "version": "2.8.2",
+      "search": "passed",
+      "fullRetrieval": "passed"
+    },
+    {
+      "id": "mitchellbauer/sqlite-go",
+      "version": "1.61.1",
+      "search": "passed",
+      "fullRetrieval": "passed"
+    },
+    {
+      "id": "mitchellbauer/postgres-go",
+      "version": "5.12.0",
+      "search": "passed",
+      "fullRetrieval": "passed"
+    }
+  ],
+  "sourceFilesMatchingBuiltFiles": 67,
+  "validation": "7 packs, 8 entries, zero warnings",
+  "rebuiltPacks": [
+    "go-stdlib",
+    "fyne-go",
+    "sqlite-go",
+    "postgres-go"
+  ]
+}

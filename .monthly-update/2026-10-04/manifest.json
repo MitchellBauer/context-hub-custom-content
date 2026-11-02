@@ -1,0 +1,166 @@
+[
+  {
+    "path": "UPDATE-2026-10-04.md",
+    "before_sha256": null
+  },
+  {
+    "path": "fyne-go\\README.md",
+    "before_sha256": "d486b9c9948df3177724bbc8cc249de0a6fda9da4962b4665faaee8a7e7ccfea"
+  },
+  {
+    "path": "go-stdlib\\README.md",
+    "before_sha256": "d310f435016b116d2b14912574038c568e010c7ac63372e8845dc885193a2d9a"
+  },
+  {
+    "path": "HTMX-GO\\README.md",
+    "before_sha256": "ac55e152c8bffc76376b5823d20061eb7ec3b30b445851ac9c855fd7e9775f64"
+  },
+  {
+    "path": "HTMX-GO-Beta\\README.md",
+    "before_sha256": "6c77b4695cc1e9a36747fdb8e41e56d3a863c559bac33f7e8c2f9fb585e127be"
+  },
+  {
+    "path": "postgres-go\\README.md",
+    "before_sha256": "8f948f39b5c1ba5615bbdca2bf3568d8c94f6ce260b08d90518353caa8c4704e"
+  },
+  {
+    "path": "sqlite-go\\README.md",
+    "before_sha256": "842f6f568f5a0f175deb6d64838a3c4bed1bf727d88a225ac8242f293a101514"
+  },
+  {
+    "path": "fyne-go\\mitchellbauer\\docs\\fyne-go\\DOC.md",
+    "before_sha256": "c805618ee9a08ab94a03123c1effe361c39f868bd3d2fec85dfe8c8d2723db85"
+  },
+  {
+    "path": "fyne-go\\mitchellbauer\\docs\\fyne-go\\references\\version-notes.md",
+    "before_sha256": "6d6270097c0758d6e42e27bdbe4269a490f155263ca4fe52c1cfab1ab4f52bab"
+  },
+  {
+    "path": "fyne-go\\mitchellbauer\\docs\\fyne-go\\release-deltas\\fyne-2.8.1.md",
+    "before_sha256": null
+  },
+  {
+    "path": "go-stdlib\\mitchellbauer\\docs\\go-stdlib\\DOC.md",
+    "before_sha256": "835ca4e739fea9106d2f17c1f71213f9d16b40289c162e4840f84aa8933400ed"
+  },
+  {
+    "path": "go-stdlib\\mitchellbauer\\docs\\go-stdlib\\references\\crypto-tls.md",
+    "before_sha256": "15d8c8edb78861190ab48cb987459cca1e8cfccc0f72e8c8b52fb43e8af3b6c8"
+  },
+  {
+    "path": "go-stdlib\\mitchellbauer\\docs\\go-stdlib\\references\\database-sql.md",
+    "before_sha256": "9a8b39d7ff12631d8254aef982cc40c0dbc48ed0a7f3a39d33d89a7513783066"
+  },
+  {
+    "path": "go-stdlib\\mitchellbauer\\docs\\go-stdlib\\references\\net-http.md",
+    "before_sha256": "b62f25d46d473e0a8445fc0569b6b7969cb4916dfa2ee07ee3331754af270773"
+  },
+  {
+    "path": "go-stdlib\\mitchellbauer\\docs\\go-stdlib\\references\\testing.md",
+    "before_sha256": "830e20e9b5276394ab12866730f44f7999b29ee5b1c1838d7fc37d4813ad2778"
+  },
+  {
+    "path": "go-stdlib\\mitchellbauer\\docs\\go-stdlib\\release-deltas\\go1.27.1.md",
+    "before_sha256": null
+  },
+  {
+    "path": "HTMX-GO\\mitchellbauer\\docs\\htmx\\DOC.md",
+    "before_sha256": "f0af4840327afb08c7fc220628f39e27476ff3941303e265fd695ea9d39990ea"
+  },
+  {
+    "path": "HTMX-GO\\mitchellbauer\\docs\\htmx\\references\\version-notes.md",
+    "before_sha256": "31a2429a5c0c542684d8eb0e41d014c4c9153cf6abd124fc6d7b9147ea2e08a7"
+  },
+  {
+    "path": "HTMX-GO\\mitchellbauer\\docs\\htmx\\release-deltas\\htmx-2.0.11.md",
+    "before_sha256": null
+  },
+  {
+    "path": "HTMX-GO-Beta\\mitchellbauer\\docs\\htmx-go\\DOC.md",
+    "before_sha256": null
+  },
+  {
+    "path": "HTMX-GO-Beta\\mitchellbauer\\docs\\htmx-go-beta\\DOC.md",
+    "before_sha256": "4eee4830a88bb71bdc933a9f0a6cc858172ef95dea58a3aa5ab8ce3a06a7746d"
+  },
+  {
+    "path": "HTMX-GO-Beta\\mitchellbauer\\docs\\htmx-go\\references\\attributes-and-events.md",
+    "before_sha256": null
+  },
+  {
+    "path": "HTMX-GO-Beta\\mitchellbauer\\docs\\htmx-go\\references\\beta6-release-notes.md",
+    "before_sha256": null
+  },
+  {
+    "path": "HTMX-GO-Beta\\mitchellbauer\\docs\\htmx-go\\references\\go-patterns.md",
+    "before_sha256": null
+  },
+  {
+    "path": "HTMX-GO-Beta\\mitchellbauer\\docs\\htmx-go\\references\\headers.md",
+    "before_sha256": null
+  },
+  {
+    "path": "HTMX-GO-Beta\\mitchellbauer\\docs\\htmx-go\\references\\htmx-4.0.0-release-notes.md",
+    "before_sha256": null
+  },
+  {
+    "path": "HTMX-GO-Beta\\mitchellbauer\\docs\\htmx-go\\references\\migration-from-v2.md",
+    "before_sha256": null
+  },
+  {
+    "path": "HTMX-GO-Beta\\mitchellbauer\\docs\\htmx-go-beta\\references\\attributes-and-events.md",
+    "before_sha256": "c864b60748c8aedeac63a8615df3a7634ce8fc7dedf010c4c0b74589ac16c291"
+  },
+  {
+    "path": "HTMX-GO-Beta\\mitchellbauer\\docs\\htmx-go-beta\\references\\beta6-release-notes.md",
+    "before_sha256": "b2d44eaf1c47658a877d7ee839ac9a30a4906e3ba1f9b6aeb62b0184da0caf71"
+  },
+  {
+    "path": "HTMX-GO-Beta\\mitchellbauer\\docs\\htmx-go-beta\\references\\go-patterns.md",
+    "before_sha256": "3b8a7cc78be1a67de97c16810185ac82806e48d95a3968b2f6ff2ce8e9f5bd53"
+  },
+  {
+    "path": "HTMX-GO-Beta\\mitchellbauer\\docs\\htmx-go-beta\\references\\headers.md",
+    "before_sha256": "0a7838ec25cfb4d6087ed0497d25461242d8d936aa3d2f25363d8b507c05d732"
+  },
+  {
+    "path": "HTMX-GO-Beta\\mitchellbauer\\docs\\htmx-go-beta\\references\\htmx-4.0.0-release-notes.md",
+    "before_sha256": null
+  },
+  {
+    "path": "HTMX-GO-Beta\\mitchellbauer\\docs\\htmx-go-beta\\references\\migration-from-v2.md",
+    "before_sha256": "93de51ccf052b16b0da273f7f06b402ce7897d4fb35490ded34222b8e55396d2"
+  },
+  {
+    "path": "postgres-go\\mitchellbauer\\docs\\postgres-go\\DOC.md",
+    "before_sha256": "b5ca3e75178a3f0efeea28e2791d05eb8f1fc1f4cf9c9ed02a9410c71c8948ce"
+  },
+  {
+    "path": "postgres-go\\mitchellbauer\\docs\\postgres-go\\references\\pgx-stdlib.md",
+    "before_sha256": "05e330f1dd644b9e41a69d92a4b86deb3138161f65dd5de5b6b6f71c05a95815"
+  },
+  {
+    "path": "postgres-go\\mitchellbauer\\docs\\postgres-go\\references\\version-notes.md",
+    "before_sha256": "b4888dcdaaa1ab87a1793c31af0bd665acb644cb43f367a8512027fbb8f16a8e"
+  },
+  {
+    "path": "postgres-go\\mitchellbauer\\docs\\postgres-go\\release-deltas\\pgx-5.11.0.md",
+    "before_sha256": null
+  },
+  {
+    "path": "sqlite-go\\mitchellbauer\\docs\\sqlite-go\\DOC.md",
+    "before_sha256": "df95ed07ae1aa198a3e2d797e9ac40c4f57f088268f21d7616592478c711bcf9"
+  },
+  {
+    "path": "sqlite-go\\mitchellbauer\\docs\\sqlite-go\\references\\modernc-driver.md",
+    "before_sha256": "c9eb4695af23fdca30153ca6f0bd1b5ef840434c4f81d21a9bc2fbe5bd5cd8ec"
+  },
+  {
+    "path": "sqlite-go\\mitchellbauer\\docs\\sqlite-go\\references\\version-notes.md",
+    "before_sha256": "7bdf85ada3b480dd8ac105f8fde9865b9fdf6b7d4120b7f62d4aece6f745f80c"
+  },
+  {
+    "path": "sqlite-go\\mitchellbauer\\docs\\sqlite-go\\release-deltas\\modernc-sqlite-1.60.1.md",
+    "before_sha256": null
+  }
+]
