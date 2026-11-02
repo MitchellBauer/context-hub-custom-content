@@ -1,0 +1,38 @@
+{
+  "version": "1.0.0",
+  "generated": "2026-11-02T01:43:47.294Z",
+  "docs": [
+    {
+      "id": "mitchellbauer/mysql-go",
+      "name": "mysql-go",
+      "description": "go-sql-driver/mysql guide for Go: DSN config, TLS, UTC sessions, read-only connections",
+      "source": "community",
+      "tags": [
+        "mysql",
+        "mariadb",
+        "go",
+        "database-sql",
+        "go-sql-driver",
+        "tls"
+      ],
+      "languages": [
+        {
+          "language": "go",
+          "versions": [
+            {
+              "version": "1.10.1",
+              "path": "mitchellbauer/docs/mysql-go",
+              "files": [
+                "DOC.md"
+              ],
+              "size": 5115,
+              "lastUpdated": "2026-11-01"
+            }
+          ],
+          "recommendedVersion": "1.10.1"
+        }
+      ]
+    }
+  ],
+  "skills": []
+}

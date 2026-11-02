@@ -1,0 +1,41 @@
+{
+  "version": "1.0.0",
+  "generated": "2026-11-02T01:43:50.046Z",
+  "docs": [
+    {
+      "id": "mitchellbauer/zpl-labels",
+      "name": "zpl-labels",
+      "description": "ZPL II notes for generating Zebra labels from Go templates: structure, fields, barcodes, escaping, safety",
+      "source": "community",
+      "tags": [
+        "zpl",
+        "zebra",
+        "label",
+        "barcode",
+        "qr",
+        "code128",
+        "printer",
+        "text-template",
+        "go"
+      ],
+      "languages": [
+        {
+          "language": "go",
+          "versions": [
+            {
+              "version": "1.0.0",
+              "path": "mitchellbauer/docs/zpl-labels",
+              "files": [
+                "DOC.md"
+              ],
+              "size": 6286,
+              "lastUpdated": "2026-11-01"
+            }
+          ],
+          "recommendedVersion": "1.0.0"
+        }
+      ]
+    }
+  ],
+  "skills": []
+}

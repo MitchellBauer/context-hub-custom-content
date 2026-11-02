@@ -1,0 +1,2 @@
+# Combined build output; rebuild with: chub build . -o dist
+/dist/

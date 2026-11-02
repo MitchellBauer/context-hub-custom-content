@@ -1,0 +1,39 @@
+{
+  "version": "1.0.0",
+  "generated": "2026-11-02T01:43:48.664Z",
+  "docs": [
+    {
+      "id": "mitchellbauer/windows-service-go",
+      "name": "windows-service-go",
+      "description": "golang.org/x/sys/windows/svc guide: run a Go program as a Windows service, install it, event log",
+      "source": "community",
+      "tags": [
+        "windows",
+        "service",
+        "svc",
+        "golang-x-sys",
+        "eventlog",
+        "mgr",
+        "go"
+      ],
+      "languages": [
+        {
+          "language": "go",
+          "versions": [
+            {
+              "version": "0.48.0",
+              "path": "mitchellbauer/docs/windows-service-go",
+              "files": [
+                "DOC.md"
+              ],
+              "size": 5386,
+              "lastUpdated": "2026-11-01"
+            }
+          ],
+          "recommendedVersion": "0.48.0"
+        }
+      ]
+    }
+  ],
+  "skills": []
+}
