@@ -1,11 +1,11 @@
 {
   "version": "1.0.0",
-  "generated": "2026-10-05T03:35:25.006Z",
+  "generated": "2026-11-02T02:09:16.960Z",
   "docs": [
     {
       "id": "mitchellbauer/htmx-go",
       "name": "htmx-go",
-      "description": "HTMX 4.0.0 stable guide for server-rendered Go applications",
+      "description": "HTMX 4.0.1 stable guide for server-rendered Go applications",
       "source": "community",
       "tags": [
         "htmx",
@@ -21,7 +21,7 @@
           "language": "go",
           "versions": [
             {
-              "version": "4.0.0",
+              "version": "4.0.1",
               "path": "mitchellbauer/docs/htmx-go",
               "files": [
                 "DOC.md",
@@ -30,20 +30,22 @@
                 "references/go-patterns.md",
                 "references/headers.md",
                 "references/htmx-4.0.0-release-notes.md",
-                "references/migration-from-v2.md"
+                "references/htmx-4.0.1-release-notes.md",
+                "references/migration-from-v2.md",
+                "references/request-sync.md"
               ],
-              "size": 13523,
-              "lastUpdated": "2026-10-04"
+              "size": 21465,
+              "lastUpdated": "2026-11-01"
             }
           ],
-          "recommendedVersion": "4.0.0"
+          "recommendedVersion": "4.0.1"
         }
       ]
     },
     {
       "id": "mitchellbauer/htmx-go-beta",
       "name": "htmx-go-beta",
-      "description": "HTMX 4.0.0 stable guide for server-rendered Go applications",
+      "description": "HTMX 4.0.1 stable guide for server-rendered Go applications",
       "source": "community",
       "tags": [
         "htmx",
@@ -59,7 +61,7 @@
           "language": "go",
           "versions": [
             {
-              "version": "4.0.0",
+              "version": "4.0.1",
               "path": "mitchellbauer/docs/htmx-go-beta",
               "files": [
                 "DOC.md",
@@ -68,13 +70,15 @@
                 "references/go-patterns.md",
                 "references/headers.md",
                 "references/htmx-4.0.0-release-notes.md",
-                "references/migration-from-v2.md"
+                "references/htmx-4.0.1-release-notes.md",
+                "references/migration-from-v2.md",
+                "references/request-sync.md"
               ],
-              "size": 13542,
-              "lastUpdated": "2026-10-04"
+              "size": 21484,
+              "lastUpdated": "2026-11-01"
             }
           ],
-          "recommendedVersion": "4.0.0"
+          "recommendedVersion": "4.0.1"
         }
       ]
     }

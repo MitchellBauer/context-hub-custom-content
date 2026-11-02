@@ -1,8 +1,8 @@
 # HTMX 4 for Go BYOD Pack
 
-Targets stable HTMX 4.0.0, released August 28, 2026.
+Targets stable HTMX 4.0.1 (4.0.0 released August 28, 2026; 4.0.1 November 1, 2026).
 Use `mitchellbauer/htmx-go` for HTMX 4 and `mitchellbauer/htmx` for HTMX 2.
-The `mitchellbauer/htmx-go-beta` lookup remains compatible and returns 4.0.0 guidance.
+The `mitchellbauer/htmx-go-beta` lookup remains compatible and returns 4.0.1 guidance.
 The historical folder and source names are retained so installed configurations work.
 
 ## Validate and build

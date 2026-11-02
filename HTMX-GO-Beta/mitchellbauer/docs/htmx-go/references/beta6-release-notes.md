@@ -1,7 +1,7 @@
 # HTMX 4.0.0-beta6 Release Notes
 
-Historical reference only. Current guidance targets 4.0.0; see
-`htmx-4.0.0-release-notes.md`.
+Historical reference only. Current guidance targets 4.0.1; see
+`htmx-4.0.1-release-notes.md`.
 
 ## Release
 

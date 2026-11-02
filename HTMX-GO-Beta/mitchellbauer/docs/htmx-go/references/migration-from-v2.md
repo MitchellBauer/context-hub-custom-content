@@ -5,7 +5,7 @@
 HTMX 4 includes a checker for templates and JavaScript:
 
 ```powershell
-npx htmx.org@4.0.0 upgrade-check -- .\path\to\project
+npx htmx.org@4.0.1 upgrade-check -- .\path\to\project
 ```
 
 It requires Python 3 and reports file/line findings.
